@@ -1,0 +1,628 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_bounces_": false,
+    "_data_": [
+        {
+            "Image0c88a9c534e8344": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "nav_home.png"
+            },
+            "Image0e230499ae4fb4d": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "ic_chevron_right_grey.png"
+            },
+            "Label0de7590c086f34a": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "LblName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Home"
+            }
+        },
+        {
+            "Image0c88a9c534e8344": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "ic_basics.png"
+            },
+            "Image0e230499ae4fb4d": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "ic_chevron_right_grey.png"
+            },
+            "Label0de7590c086f34a": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "LblName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "SNAP Basics"
+            }
+        },
+        {
+            "Image0c88a9c534e8344": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "nav_applying.png"
+            },
+            "Image0e230499ae4fb4d": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "ic_chevron_right_grey.png"
+            },
+            "Label0de7590c086f34a": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "LblName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Applying for SNAP"
+            }
+        },
+        {
+            "Image0c88a9c534e8344": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "nav_keeping.png"
+            },
+            "Image0e230499ae4fb4d": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "ic_chevron_right_grey.png"
+            },
+            "Label0de7590c086f34a": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "LblName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Keeping SNAP Benefits"
+            }
+        },
+        {
+            "Image0c88a9c534e8344": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "nav_card.png"
+            },
+            "Image0e230499ae4fb4d": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "ic_chevron_right_grey.png"
+            },
+            "Label0de7590c086f34a": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "LblName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Using Your EBT Card"
+            }
+        },
+        {
+            "Image0c88a9c534e8344": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "nav_food_resources.png"
+            },
+            "Image0e230499ae4fb4d": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "ic_chevron_right_grey.png"
+            },
+            "Label0de7590c086f34a": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "LblName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "More Food Resources"
+            }
+        },
+        {
+            "Image0c88a9c534e8344": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "nav_tips.png"
+            },
+            "Image0e230499ae4fb4d": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "ic_chevron_right_grey.png"
+            },
+            "Label0de7590c086f34a": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "LblName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "SNAP Smart Tips"
+            }
+        },
+        {
+            "Image0c88a9c534e8344": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "nav_county_directory.png"
+            },
+            "Image0e230499ae4fb4d": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "ic_chevron_right_grey.png"
+            },
+            "Label0de7590c086f34a": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "LblName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "County Agency Directory"
+            }
+        },
+        {
+            "Image0c88a9c534e8344": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "nav_near.png"
+            },
+            "Image0e230499ae4fb4d": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "ic_chevron_right_grey.png"
+            },
+            "Label0de7590c086f34a": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "LblName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "What's near me?"
+            }
+        },
+        {
+            "Image0c88a9c534e8344": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "nav_notes.png"
+            },
+            "Image0e230499ae4fb4d": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "ic_chevron_right_grey.png"
+            },
+            "Label0de7590c086f34a": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "LblName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "My Notes"
+            }
+        },
+        {
+            "Image0c88a9c534e8344": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "nav_report.png"
+            },
+            "Image0e230499ae4fb4d": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "ic_chevron_right_grey.png"
+            },
+            "Label0de7590c086f34a": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "LblName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Report Suspected Fraud"
+            }
+        },
+        {
+            "Image0c88a9c534e8344": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "nav_comment.png"
+            },
+            "Image0e230499ae4fb4d": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "ic_chevron_right_grey.png"
+            },
+            "Label0de7590c086f34a": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "LblName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Comment on this App"
+            }
+        },
+        {
+            "Image0c88a9c534e8344": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "nav_settings.png"
+            },
+            "Image0e230499ae4fb4d": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "ic_chevron_right_grey.png"
+            },
+            "Label0de7590c086f34a": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "LblName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Settings"
+            }
+        },
+        {
+            "Image0c88a9c534e8344": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "nav_help.png"
+            },
+            "Image0e230499ae4fb4d": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "ic_chevron_right_grey.png"
+            },
+            "Label0de7590c086f34a": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "LblName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Help"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50.04%"
+    },
+    "containerweight": 100,
+    "counter": "013",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "Segment0a79a394297f846",
+    "ide_onRowClick": "AS_Segment_e2bbd512fbf34cbca8527d1a934a4451",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "bounces": false,
+            "indicator": "none"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "c3e1d4a5b4b34d1baf83900b70b2ecd3",
+    "masterdata": {},
+    "mobile": {
+        "_data_": [
+            {
+                "Image0c88a9c534e8344": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "nav_home.png"
+                },
+                "Image0e230499ae4fb4d": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "ic_chevron_right_grey.png"
+                },
+                "Label0de7590c086f34a": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "LblName": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Home"
+                }
+            },
+            {
+                "Image0c88a9c534e8344": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "ic_basics.png"
+                },
+                "Image0e230499ae4fb4d": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "ic_chevron_right_grey.png"
+                },
+                "Label0de7590c086f34a": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "LblName": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "SNAP Basics"
+                }
+            },
+            {
+                "Image0c88a9c534e8344": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "nav_applying.png"
+                },
+                "Image0e230499ae4fb4d": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "ic_chevron_right_grey.png"
+                },
+                "Label0de7590c086f34a": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "LblName": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Applying for SNAP"
+                }
+            },
+            {
+                "Image0c88a9c534e8344": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "nav_keeping.png"
+                },
+                "Image0e230499ae4fb4d": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "ic_chevron_right_grey.png"
+                },
+                "Label0de7590c086f34a": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "LblName": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Keeping SNAP Benefits"
+                }
+            },
+            {
+                "Image0c88a9c534e8344": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "nav_card.png"
+                },
+                "Image0e230499ae4fb4d": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "ic_chevron_right_grey.png"
+                },
+                "Label0de7590c086f34a": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "LblName": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Using Your EBT Card"
+                }
+            },
+            {
+                "Image0c88a9c534e8344": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "nav_food_resources.png"
+                },
+                "Image0e230499ae4fb4d": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "ic_chevron_right_grey.png"
+                },
+                "Label0de7590c086f34a": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "LblName": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "More Food Resources"
+                }
+            },
+            {
+                "Image0c88a9c534e8344": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "nav_tips.png"
+                },
+                "Image0e230499ae4fb4d": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "ic_chevron_right_grey.png"
+                },
+                "Label0de7590c086f34a": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "LblName": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "SNAP Smart Tips"
+                }
+            },
+            {
+                "Image0c88a9c534e8344": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "nav_county_directory.png"
+                },
+                "Image0e230499ae4fb4d": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "ic_chevron_right_grey.png"
+                },
+                "Label0de7590c086f34a": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "LblName": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "County Agency Directory"
+                }
+            },
+            {
+                "Image0c88a9c534e8344": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "nav_near.png"
+                },
+                "Image0e230499ae4fb4d": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "ic_chevron_right_grey.png"
+                },
+                "Label0de7590c086f34a": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "LblName": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "What's near me?"
+                }
+            },
+            {
+                "Image0c88a9c534e8344": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "nav_notes.png"
+                },
+                "Image0e230499ae4fb4d": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "ic_chevron_right_grey.png"
+                },
+                "Label0de7590c086f34a": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "LblName": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "My Notes"
+                }
+            },
+            {
+                "Image0c88a9c534e8344": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "nav_report.png"
+                },
+                "Image0e230499ae4fb4d": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "ic_chevron_right_grey.png"
+                },
+                "Label0de7590c086f34a": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "LblName": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Report Suspected Fraud"
+                }
+            },
+            {
+                "Image0c88a9c534e8344": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "nav_comment.png"
+                },
+                "Image0e230499ae4fb4d": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "ic_chevron_right_grey.png"
+                },
+                "Label0de7590c086f34a": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "LblName": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Comment on this App"
+                }
+            },
+            {
+                "Image0c88a9c534e8344": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "nav_settings.png"
+                },
+                "Image0e230499ae4fb4d": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "ic_chevron_right_grey.png"
+                },
+                "Label0de7590c086f34a": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "LblName": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Settings"
+                }
+            },
+            {
+                "Image0c88a9c534e8344": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "nav_help.png"
+                },
+                "Image0e230499ae4fb4d": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "ic_chevron_right_grey.png"
+                },
+                "Label0de7590c086f34a": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "LblName": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "How to Use this App"
+                }
+            }
+        ],
+        "rowTemplateId": "d615ee7d83ff460b8cfa990c2c8fc068",
+        "rowtemplate": "FlxContent",
+        "widgetdatamap": {
+            "FlexContainer0aff3c7fe796548": "FlexContainer0aff3c7fe796548",
+            "FlxContent": "FlxContent",
+            "Image0c88a9c534e8344": "Image0c88a9c534e8344",
+            "Image0e230499ae4fb4d": "Image0e230499ae4fb4d",
+            "Label0de7590c086f34a": "Label0de7590c086f34a",
+            "LblName": "LblName"
+        }
+    },
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxScrollDataMenu",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "d615ee7d83ff460b8cfa990c2c8fc068",
+    "rowcounter": 13,
+    "rowfocusskin": "s971dc59eeff484682ba6bdddb70769a",
+    "rowskin": "s74eaecd87e44d53a0cde7f635c69609",
+    "rowtemplate": "FlxContent",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionHeaderTemplateId": null,
+    "sectionheaderskin": "s0d675b173214ed79619b614d479d9da",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorrequired": false,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "FlexContainer0aff3c7fe796548": "FlexContainer0aff3c7fe796548",
+        "FlxContent": "FlxContent",
+        "Image0c88a9c534e8344": "Image0c88a9c534e8344",
+        "Image0e230499ae4fb4d": "Image0e230499ae4fb4d",
+        "Label0de7590c086f34a": "Label0de7590c086f34a",
+        "LblName": "LblName"
+    },
+    "zindex": 1
+}

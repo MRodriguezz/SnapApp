@@ -1,0 +1,17 @@
+{
+    "AS_FlexContainer_e839d004fd424d2ea0b070ff712d29e2": {
+        "id": "AS_FlexContainer_e839d004fd424d2ea0b070ff712d29e2",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_b463cd1c8177454d81dde2b1fa037c54",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.ClickChangeColoruQuestionYes(\"BtnQuestion3Food\",\"Question3\")",
+            "callbackType": null
+        }]
+    }
+}

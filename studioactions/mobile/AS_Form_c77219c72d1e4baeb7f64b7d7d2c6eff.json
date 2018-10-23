@@ -1,0 +1,18 @@
+{
+    "AS_Form_c77219c72d1e4baeb7f64b7d7d2c6eff": {
+        "id": "AS_Form_c77219c72d1e4baeb7f64b7d7d2c6eff",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "FrmEnter",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ca520fb2aaf04110b34307d2703b4802"
+        },
+        "language": "js",
+        "actions": []
+    }
+}

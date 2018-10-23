@@ -1,0 +1,21 @@
+{
+    "AS_Button_gae5bdfa4d3e4193b057040a25e84302": {
+        "id": "AS_Button_gae5bdfa4d3e4193b057040a25e84302",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_cf86af48f48246cf852aa71520ddf2d4",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "navigateToHome",
+            "display": "navigateToHome",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

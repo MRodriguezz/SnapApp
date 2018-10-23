@@ -1,0 +1,28 @@
+{
+    "AS_Form_fcdd93c3c98e4f3eb140ce14b9cf8b6a": {
+        "id": "AS_Form_fcdd93c3c98e4f3eb140ce14b9cf8b6a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "FrmEnter",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ca520fb2aaf04110b34307d2703b4802"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___gb26df792f6c454fa82c2b207890a43d",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "AssingActions",
+            "display": "AssingActions",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "AS_FlexContainer_c323b324a07c411a92aa29ff0984b557": {
+        "id": "AS_FlexContainer_c323b324a07c411a92aa29ff0984b557",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "FrmHome",
+            "type": "forms",
+            "platform": "",
+            "KUID": "d0204f72c32e4349b45b4186679b4cab"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__hc672e9d95d3491d936fe10af488facf",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.circleEnd();",
+            "parentId": null,
+            "callbackType": null,
+            "disabled": true
+        }, {
+            "id": "INVOKE_FUNCTION___a079562f83ff471ea0e3be100b6e1187",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "circleEnd",
+            "display": "circleEnd",
+            "inputparams": [{
+                "name": "eventObj",
+                "value": " eventobject"
+            }, {
+                "name": "x",
+                "value": " x"
+            }, {
+                "name": "y",
+                "value": " y"
+            }, {
+                "name": "widget",
+                "value": ""
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

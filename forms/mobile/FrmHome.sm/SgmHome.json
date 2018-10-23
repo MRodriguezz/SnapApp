@@ -1,0 +1,325 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        {
+            "Image0a344106f7a1a44": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "ic_basics.png"
+            },
+            "Image0e230499ae4fb4d": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "ic_chevron_right_grey.png"
+            },
+            "LblHomeName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "SNAP Basics"
+            },
+            "LblHomeName2": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Learn about the programs"
+            }
+        },
+        {
+            "Image0a344106f7a1a44": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "ic_basics.png"
+            },
+            "Image0e230499ae4fb4d": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "ic_chevron_right_grey.png"
+            },
+            "LblHomeName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "SNAP Basics"
+            },
+            "LblHomeName2": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Learn about the programs"
+            }
+        },
+        {
+            "Image0a344106f7a1a44": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "ic_basics.png"
+            },
+            "Image0e230499ae4fb4d": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "ic_chevron_right_grey.png"
+            },
+            "LblHomeName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "SNAP Basics"
+            },
+            "LblHomeName2": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Learn about the programs"
+            }
+        },
+        {
+            "Image0a344106f7a1a44": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "ic_basics.png"
+            },
+            "Image0e230499ae4fb4d": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "ic_chevron_right_grey.png"
+            },
+            "LblHomeName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "SNAP Basics"
+            },
+            "LblHomeName2": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Learn about the programs"
+            }
+        },
+        {
+            "Image0a344106f7a1a44": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "ic_basics.png"
+            },
+            "Image0e230499ae4fb4d": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "ic_chevron_right_grey.png"
+            },
+            "LblHomeName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "SNAP Basics"
+            },
+            "LblHomeName2": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Learn about the programs"
+            }
+        },
+        {
+            "Image0a344106f7a1a44": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "ic_basics.png"
+            },
+            "Image0e230499ae4fb4d": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "ic_chevron_right_grey.png"
+            },
+            "LblHomeName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "SNAP Basics"
+            },
+            "LblHomeName2": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Learn about the programs"
+            }
+        },
+        {
+            "Image0a344106f7a1a44": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "ic_basics.png"
+            },
+            "Image0e230499ae4fb4d": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "ic_chevron_right_grey.png"
+            },
+            "LblHomeName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "SNAP Basics"
+            },
+            "LblHomeName2": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Learn about the programs"
+            }
+        },
+        {
+            "Image0a344106f7a1a44": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "ic_basics.png"
+            },
+            "Image0e230499ae4fb4d": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "ic_chevron_right_grey.png"
+            },
+            "LblHomeName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "SNAP Basics"
+            },
+            "LblHomeName2": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Learn about the programs"
+            }
+        },
+        {
+            "Image0a344106f7a1a44": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "ic_basics.png"
+            },
+            "Image0e230499ae4fb4d": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "ic_chevron_right_grey.png"
+            },
+            "LblHomeName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "SNAP Basics"
+            },
+            "LblHomeName2": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Learn about the programs"
+            }
+        },
+        {
+            "Image0a344106f7a1a44": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "ic_basics.png"
+            },
+            "Image0e230499ae4fb4d": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "ic_chevron_right_grey.png"
+            },
+            "LblHomeName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "SNAP Basics"
+            },
+            "LblHomeName2": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Learn about the programs"
+            }
+        },
+        {
+            "Image0a344106f7a1a44": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "ic_basics.png"
+            },
+            "Image0e230499ae4fb4d": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "ic_chevron_right_grey.png"
+            },
+            "LblHomeName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "SNAP Basics"
+            },
+            "LblHomeName2": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Learn about the programs"
+            }
+        },
+        {
+            "Image0a344106f7a1a44": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "ic_basics.png"
+            },
+            "Image0e230499ae4fb4d": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "ic_chevron_right_grey.png"
+            },
+            "LblHomeName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "SNAP Basics"
+            },
+            "LblHomeName2": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Learn about the programs"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "011",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "hiddencolumns": {
+        "lblURL": "text"
+    },
+    "id": "SgmHome",
+    "ide_onRowClick": "AS_Segment_h867ace5f3f641e0956a2a448d548328",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "none"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "b743985babd54939bfbac704205b0f7f",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "FlxContent",
+    "pf": "FrmHome",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "a25eb640e2b847eebe9509ad6350aa48",
+    "rowcounter": 11,
+    "rowfocusskin": "saeca70752a54c359ddbec8f8570ebc4",
+    "rowskin": "s3124c8784844036949c52a85ef2a3c6",
+    "rowtemplate": "FlexContent",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionHeaderTemplateId": null,
+    "sectionheaderskin": "s0d675b173214ed79619b614d479d9da",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "b0b0b00f",
+    "separatorrequired": true,
+    "separatorthickness": 1,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "FlexContainer0a68915ab028646": "FlexContainer0a68915ab028646",
+        "FlexContent": "FlexContent",
+        "Image0a344106f7a1a44": "Image0a344106f7a1a44",
+        "Image0e230499ae4fb4d": "Image0e230499ae4fb4d",
+        "LblHomeName": "LblHomeName",
+        "LblHomeName2": "LblHomeName2"
+    },
+    "zindex": 1
+}

@@ -1,0 +1,62 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "47dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s00b48182a7047a1bfade46e70ac71b0",
+    "_top_": {
+        "type": "string",
+        "value": "11dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "80%"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "51%"
+    },
+    "children": [
+        "FlxClickQuestion4Somewhat",
+        "BtnQuestion4Somewhat"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "FlxQuestion4Somewhat",
+    "ide_onClick": "AS_FlexContainer_b2f998c9d0d6409e985980310eb53d06",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "e26295733e6b484a97f0fbf426536ea0",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "FlxQuestion4",
+    "pf": "FrmComments",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 1
+}

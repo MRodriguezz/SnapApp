@@ -1,0 +1,127 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        {
+            "LblDescription": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "LblNoteDate": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "LblNoteName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "imgChevron": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": ""
+            }
+        }
+    ],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "00",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "SgmMyNotes",
+    "ide_onRowClick": "AS_Segment_f8b17e6f12754bb1a96d558646877f74",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "none"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": false,
+    "kuid": "i70f639ab10344ab9808d9a8bfd4f90a",
+    "masterdata": {},
+    "maxwidth": {
+        "type": "string",
+        "value": "99.75%"
+    },
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "FlxContent",
+    "pf": "FrmMyNotes",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "b5f6e59061064c64961742a302f1b294",
+    "rowcounter": 0,
+    "rowfocusskin": "s971dc59eeff484682ba6bdddb70769a",
+    "rowskin": "s7c044414d524901a9f375386ab56f0c",
+    "rowtemplate": "FlxContentNote",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s0d675b173214ed79619b614d479d9da",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "aaaaaa00",
+    "separatorrequired": true,
+    "separatorthickness": 1,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "FlxContainerNotes": "FlxContainerNotes",
+        "FlxContentNote": "FlxContentNote",
+        "LblDescription": "LblDescription",
+        "LblNoteDate": "LblNoteDate",
+        "LblNoteName": "LblNoteName",
+        "imgChevron": "imgChevron"
+    },
+    "zindex": 1
+}

@@ -1,0 +1,24 @@
+{
+    "AS_Form_a2717534c35a486e95ccca1220182083": {
+        "id": "AS_Form_a2717534c35a486e95ccca1220182083",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "FrmSplash",
+            "type": "forms",
+            "platform": null,
+            "KUID": "e6e3fb0b562741a7845d1cd596a0ac49"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__a69dc08d90ca4c3a9af0826b77697ca7",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.ImgOhio.opacity = 0;",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "AS_FlexContainer_cc19742e52f44efdbb45b624f6c1c95a": {
+        "id": "AS_FlexContainer_cc19742e52f44efdbb45b624f6c1c95a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "FrmHome",
+            "type": "forms",
+            "platform": "",
+            "KUID": "d0204f72c32e4349b45b4186679b4cab"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___b61a36f24e2646d7abdccd93d896d4c3",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "moveCircle",
+            "display": "moveCircle",
+            "inputparams": [{
+                "name": "eventObj",
+                "value": " eventobject"
+            }, {
+                "name": "x",
+                "value": " x"
+            }, {
+                "name": "y",
+                "value": " y"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

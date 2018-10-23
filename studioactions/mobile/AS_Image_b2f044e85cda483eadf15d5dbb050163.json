@@ -1,0 +1,30 @@
+{
+    "AS_Image_b2f044e85cda483eadf15d5dbb050163": {
+        "id": "AS_Image_b2f044e85cda483eadf15d5dbb050163",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "FrmHome",
+            "type": "forms",
+            "platform": "",
+            "KUID": "d0204f72c32e4349b45b4186679b4cab"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__jf485ccb41d0411d8638d55ed343f5ef",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "setGestureMenu();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

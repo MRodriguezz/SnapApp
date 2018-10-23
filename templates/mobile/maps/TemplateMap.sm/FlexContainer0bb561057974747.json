@@ -1,0 +1,65 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "sbb0d7c0831b45bba55691ff607e2f03",
+    "_width_": {
+        "type": "string",
+        "value": "80%"
+    },
+    "allboxes": [],
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "48%"
+    },
+    "children": [
+        "FlexContainer0df525c598a954a",
+        "FlexContainer0f74b740f99084c",
+        "FlexContainer0b3b91376579f42",
+        "CopyFlexContainer0b89c59a640304d",
+        "FlexContainer0f5d1241150f34e"
+    ],
+    "clipbounds": true,
+    "containerId": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "FlexContainer0bb561057974747",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "e63a11783f6248699705019adab7ff9b",
+    "layouttype": 4,
+    "name": "kony.ui.FlexContainer",
+    "parent": "flxMapTemplate",
+    "pf": "TemplateMap",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 1
+}

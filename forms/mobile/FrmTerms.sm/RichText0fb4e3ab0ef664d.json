@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizRichText",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "4%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s6cd6a1c3cde4297a24fccd669f9b8f7",
+    "_text_": "Use of the material on this app for any purpose other than to promote information and education may constitute a copyright infringement.  This app and its contents may not be reproduced or used for unauthorized purposes without prior written permission, which may be obtained by submitting a request to <a style=\"color:#2d78ff\" href=\"mailto:regal@odjfs.ohio.gov\">egal@odjfs.ohio.gov.</a> This mobile app may contain copyrighted work created under contract with government agencies, etc.",
+    "_top_": {
+        "type": "string",
+        "value": "54dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "_wrapping_": 2,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "id": "RichText0fb4e3ab0ef664d",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "g34ad018a97f4fc98fdf44c1e4017f56",
+    "linkskin": "sb0b8c6bd00e46e39726e7a7dcf1a6c7",
+    "name": "kony.ui.RichText",
+    "parent": "FlxCopyright",
+    "pf": "FrmTerms",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "RichText",
+    "widgetalignment": 5,
+    "zindex": 1
+}

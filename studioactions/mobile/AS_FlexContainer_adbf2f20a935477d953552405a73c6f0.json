@@ -1,0 +1,43 @@
+{
+    "AS_FlexContainer_adbf2f20a935477d953552405a73c6f0": {
+        "id": "AS_FlexContainer_adbf2f20a935477d953552405a73c6f0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "FrmHome",
+            "type": "forms",
+            "platform": "",
+            "KUID": "d0204f72c32e4349b45b4186679b4cab"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___i37fca9b1e684b6c8465b212c32d4cbf",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "circleEnd",
+            "display": "circleEnd",
+            "inputparams": [{
+                "name": "eventObj",
+                "value": " eventobject"
+            }, {
+                "name": "x",
+                "value": " x"
+            }, {
+                "name": "y",
+                "value": " y"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

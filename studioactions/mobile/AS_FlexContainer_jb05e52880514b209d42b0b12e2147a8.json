@@ -1,0 +1,17 @@
+{
+    "AS_FlexContainer_jb05e52880514b209d42b0b12e2147a8": {
+        "id": "AS_FlexContainer_jb05e52880514b209d42b0b12e2147a8",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_gd27458a4e40445a906f03c3f09e2aa7",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.ClickChangeColoruQuestionYes(\"BtnFirstQuestionNo\")",
+            "callbackType": null
+        }]
+    }
+}

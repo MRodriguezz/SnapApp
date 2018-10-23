@@ -1,0 +1,17 @@
+{
+    "AS_FlexContainer_c1e72944e2ec40a4b9f49716c3ca2cea": {
+        "id": "AS_FlexContainer_c1e72944e2ec40a4b9f49716c3ca2cea",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_fe8d45ffd9814c98b4a7fe462c4be790",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.animMoveElements(\"FlexContainer0ad0c25fd5df049\", \"0dp\", 0, 0.5)",
+            "callbackType": null
+        }]
+    }
+}

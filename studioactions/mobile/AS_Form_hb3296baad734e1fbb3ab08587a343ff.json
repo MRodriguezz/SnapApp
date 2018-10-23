@@ -1,0 +1,24 @@
+{
+    "AS_Form_hb3296baad734e1fbb3ab08587a343ff": {
+        "id": "AS_Form_hb3296baad734e1fbb3ab08587a343ff",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "FrmHomeDescription",
+            "type": "forms",
+            "platform": "",
+            "KUID": "j286aa94110c40d5b5396b7169903c22"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__fcd2d919d7bb45cdba8f3e69c0ee98b5",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "try{\n  var urlConfig = this.view.FlxHeaderInfo.LblHeader2Title.info;\n  this.view.contentBrowser.requestURLConfig = urlConfig;\n}\ncatch(e)\n{\n  kony.print(\"HomeDescription postshow : \"+e);\n}\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

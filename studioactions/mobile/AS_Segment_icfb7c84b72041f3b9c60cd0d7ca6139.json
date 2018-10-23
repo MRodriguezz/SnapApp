@@ -1,0 +1,24 @@
+{
+    "AS_Segment_icfb7c84b72041f3b9c60cd0d7ca6139": {
+        "id": "AS_Segment_icfb7c84b72041f3b9c60cd0d7ca6139",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "name": "FrmHome",
+            "type": "forms",
+            "platform": "",
+            "KUID": "d0204f72c32e4349b45b4186679b4cab"
+        },
+        "language": "js",
+        "actions": []
+    }
+}

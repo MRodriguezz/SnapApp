@@ -1,0 +1,17 @@
+{
+    "AS_FlexContainer_fc2dd715f48c4a5ea9e2d934a251c2a3": {
+        "id": "AS_FlexContainer_fc2dd715f48c4a5ea9e2d934a251c2a3",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_c9e51e076ddb45be8c37896e8e6a1a0e",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.animMoveElements(\"FlxMenu\", \"0dp\", 0, 0.5)",
+            "callbackType": null
+        }]
+    }
+}

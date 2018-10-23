@@ -1,0 +1,24 @@
+{
+    "AS_FlexContainer_jdaa8cce14974e0da81d486200c10b86": {
+        "id": "AS_FlexContainer_jdaa8cce14974e0da81d486200c10b86",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "FrmComments",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b6fbcb9f0b7d40369d85bf93b4230272"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__b5068cdc2d5d40288729feb5a0d16acf",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.ClickChangeColoruQuestionYes()",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

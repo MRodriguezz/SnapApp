@@ -1,0 +1,24 @@
+{
+    "AS_Form_i170db45e2b34cb290fe85b18184f37a": {
+        "id": "AS_Form_i170db45e2b34cb290fe85b18184f37a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "FrmMyNotes",
+            "type": "forms",
+            "platform": "",
+            "KUID": "daf0d93e78d64cbf8144a8c28457e026"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__f4665349b540455a97a512ae0fd80386",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "//this.CleanSegment();\nthis.getNotesFromStore();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

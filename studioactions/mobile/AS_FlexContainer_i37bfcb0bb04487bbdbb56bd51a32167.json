@@ -1,0 +1,28 @@
+{
+    "AS_FlexContainer_i37bfcb0bb04487bbdbb56bd51a32167": {
+        "id": "AS_FlexContainer_i37bfcb0bb04487bbdbb56bd51a32167",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "FrmDirectoryDescription",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b62f014fa38e4b359a5aed98f4d6db5b"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___e1a611dbb7f34b7b9ed7b36bf832a30c",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "ClickRowDirectoryBack",
+            "display": "ClickRowDirectoryBack",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

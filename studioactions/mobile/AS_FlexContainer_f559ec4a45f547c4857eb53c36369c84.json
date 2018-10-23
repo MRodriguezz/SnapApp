@@ -1,0 +1,24 @@
+{
+    "AS_FlexContainer_f559ec4a45f547c4857eb53c36369c84": {
+        "id": "AS_FlexContainer_f559ec4a45f547c4857eb53c36369c84",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "WhatNearMe",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ab7a7f105fda463883cea06f4edba3aa"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__ad9f777b3520446b968d7b9abd6754c6",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "MenuVisible();\nmoveBoxMap(\"50%\", 0, 0.8);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

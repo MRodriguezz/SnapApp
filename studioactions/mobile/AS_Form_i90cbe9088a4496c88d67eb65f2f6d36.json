@@ -1,0 +1,28 @@
+{
+    "AS_Form_i90cbe9088a4496c88d67eb65f2f6d36": {
+        "id": "AS_Form_i90cbe9088a4496c88d67eb65f2f6d36",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "WhatNearMe",
+            "type": "forms",
+            "platform": null,
+            "KUID": "ab7a7f105fda463883cea06f4edba3aa"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___a58f75ce7f7b4eb794afce8240d5f49e",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "getCurrentLocation",
+            "display": "getCurrentLocation",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

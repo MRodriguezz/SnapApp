@@ -1,0 +1,17 @@
+{
+    "AS_FlexContainer_d5033b9aedf54e429b2ab65ad59c0d17": {
+        "id": "AS_FlexContainer_d5033b9aedf54e429b2ab65ad59c0d17",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_c26912d85785422a88fa79d52ab515ad",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "animMoveElementsDown()",
+            "callbackType": null
+        }]
+    }
+}

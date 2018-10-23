@@ -1,0 +1,68 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "15%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "sd62dd34ac3e481b87487ab023a0e579",
+    "_top_": {
+        "type": "string",
+        "value": "13%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "55%"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "children": [
+        "flxSwipeIndicator00",
+        "flxSwipeIndicator01",
+        "flxSwipeIndicator02",
+        "flxSwipeIndicator03",
+        "flxSwipeIndicator04",
+        "flxSwipeIndicator05",
+        "flxSwipeIndicator06",
+        "flxSwipeIndicator07",
+        "flxSwipeIndicator08"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "flxSwipeIndicators",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "h43d02833d9441a480542e147430d329",
+    "layouttype": 3,
+    "name": "kony.ui.FlexContainer",
+    "parent": "flxBgWhiteButtonClose",
+    "pf": "frmTutorial",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 1
+}

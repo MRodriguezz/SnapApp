@@ -1,0 +1,30 @@
+{
+    "AS_Segment_a25e3eb440314bd08a1e36fe25e78098": {
+        "id": "AS_Segment_a25e3eb440314bd08a1e36fe25e78098",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "name": "FrmHome",
+            "type": "forms",
+            "platform": "",
+            "KUID": "d0204f72c32e4349b45b4186679b4cab"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__ebc08022653c4bc88e5582211aa4be02",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.NavigateHomeDescription()",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

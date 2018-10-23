@@ -1,0 +1,27 @@
+{
+    "AS_Button_j2dab92322744dce869b29c7122fb571": {
+        "id": "AS_Button_j2dab92322744dce869b29c7122fb571",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "uwu773cce24d0e4461bf73f9c3cde6cbc7",
+            "type": "userwidgets",
+            "KUID": "u773cce24d0e4461bf73f9c3cde6cbc7"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___f914f7e1839c48938d2727b05eda55a5",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "MenuUp",
+            "display": "MenuUp",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

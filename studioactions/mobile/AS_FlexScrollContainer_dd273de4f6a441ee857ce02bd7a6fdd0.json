@@ -1,0 +1,24 @@
+{
+    "AS_FlexScrollContainer_dd273de4f6a441ee857ce02bd7a6fdd0": {
+        "id": "AS_FlexScrollContainer_dd273de4f6a441ee857ce02bd7a6fdd0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmTutorial",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b4d8c275d4b746c79a0ff12c6337e298"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__a4a9500df5774fc7a7afdc6687da15a5",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.swipeTutorial();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

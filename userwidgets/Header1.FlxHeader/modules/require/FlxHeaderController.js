@@ -1,0 +1,166 @@
+define(function() {
+
+  return {
+
+    SearchHomeData: function(resultset){
+      try{
+        var currentform = kony.application.getCurrentForm();
+        resultset = searchData.SNAPSearchIndex;	//	temporary
+        kony.print("inside SearchHomeData");
+        var searchText = checkNullUndefinedEmpty(currentform.FlxHeader.TxtBoxSearch.text.toLowerCase());
+        var searchArray = searchText.split(" ");
+        var segmentData = [];
+        var usedNameDirectory = [];
+        //	divide text in words to search seperately
+        for(var i=0; i<searchArray.length; i++)
+        {
+          var element = searchArray[i].trim();
+          //	result to search into
+          if(element !== "")
+          {
+            for (var j=0; j<resultset.length; j++)
+            {
+              // search index of element in input resultset
+              //kony.print("SearchHomeData usedNameDirectory : "+JSON.stringify(usedNameDirectory));
+
+              kony.print("resultset[j].question search : "+resultset[j].question);
+              var result = resultset[j].searchterms.toLowerCase().indexOf(element);
+              var question = checkNullUndefinedEmpty(resultset[j].question);
+              var snapurl = checkNullUndefinedEmpty(resultset[j].snapContentURL);
+              
+              if(result !== -1 && result !== "-1" )
+              {
+                if(resultset[j].contentType == "search") {
+                  //	navigate to specific url
+                  if(usedNameDirectory.indexOf(question) === -1)
+                  {
+                    segmentData.push({"NameDirectory":question, "lblURL":snapurl, "imgchevron":"ic_chevron_right_grey.png"});
+                    usedNameDirectory.push(question);
+                  }  
+                } 
+                else if (resultset[j].contentType == "navigation") {
+                  //	navigate to respective page 
+                  if(question.indexOf("County Agency Directory") == 0) 
+                  {
+                    kony.print("resultset[j].question : County Agency Directory");
+                    if(usedNameDirectory.indexOf(question) === -1)
+                    {
+                      segmentData.push({"NameDirectory":question, "imgchevron":"ic_chevron_right_grey.png"});
+                      usedNameDirectory.push(question);
+                    }  
+                  } 
+                  else if(question.indexOf("My Notes") == 0) 
+                  {
+                    kony.print("question : My Notes");
+                    if(usedNameDirectory.indexOf(question) === -1)
+                    {
+                      segmentData.push({"NameDirectory":question, "imgchevron":"ic_chevron_right_grey.png"});
+                      usedNameDirectory.push(question);
+                    }  
+                  } 
+                  else if(question.indexOf("Reprot Suspected Fraud") === 0) 
+                  {
+                    kony.print("question : Reprot Suspected Fraud");
+                    if(usedNameDirectory.indexOf(question) === -1)
+                    {
+                      segmentData.push({"NameDirectory":question, "imgchevron":"ic_chevron_right_grey.png"});
+                      usedNameDirectory.push(question);
+                    }  
+                  } 
+                  else if(question.indexOf("Comment on this App") === 0) 
+                  {
+                    kony.print("question : Comment on this App");
+                    if(usedNameDirectory.indexOf(question) === -1)
+                    {
+                      segmentData.push({"NameDirectory":question, "imgchevron":"ic_chevron_right_grey.png"});
+                      usedNameDirectory.push(question);
+                    }  
+                  }
+                  else
+                  {
+                    kony.print("question : "+question);
+                  }  
+                }
+              }
+            }              
+          }  
+          else
+          {
+            kony.print("empty element : "+element);
+            return;
+          }
+        }
+        //	assign the data to segment
+        kony.print("SearchHomeData segmentData : "+JSON.stringify(segmentData));
+        if(segmentData.length>0)
+          {
+            currentform.SgmHome.isVisible = false;
+            currentform.SgSearchData.isVisible = true;
+            currentform.SgSearchData.widgetDataMap = {NameDirectory:"NameDirectory", lblURL:"lblURL", imgchevron:"imgchevron"};
+            currentform.SgSearchData.onRowClick = this.SearchSegmentRowClick;
+            currentform.SgSearchData.data = segmentData;
+          }
+        else
+          {
+            alert("No matching information, please try again !");
+          }
+      } 
+      catch(e){
+        kony.print("SearchHomeData catch : "+e);
+      }
+    },
+
+    SearchSegmentRowClick: function(eventobject){
+      try{
+        kony.print("SearchSegmentRowClick eventobject : "+JSON.stringify(eventobject));
+        var selectedItems = eventobject.selectedItems[0];
+        var URL = checkNullUndefinedEmpty(selectedItems.lblURL);
+        var directoryName = checkNullUndefinedEmpty(selectedItems.NameDirectory);
+        kony.print("URL : "+URL+", directoryName : "+directoryName);
+
+        if(URL !== "")
+        {
+          var item = {"screenname":directoryName, "url":URL};
+          var navToProspect = new kony.mvc.Navigation("FrmHomeDescription");
+          navToProspect.navigate(item);
+        }
+        else
+        {
+          kony.print("directoryName : "+directoryName);
+          if(directoryName === "County Agency Directory") {
+            var navToProspect = new kony.mvc.Navigation("FrmDirectory");
+            navToProspect.navigate();
+          } else if(directoryName === "My Notes") {
+            var navToProspect = new kony.mvc.Navigation("FrmMyNotes");
+            navToProspect.navigate();
+          } else if(directoryName === "Reprot Suspected Fraud") {
+            var fraudUrl = "http://www.jfs.ohio.gov/fraud/index.stm";
+            kony.application.openURL(fraudUrl);
+          } else if(directoryName === "Comment on this App") {
+            var navToProspect = new kony.mvc.Navigation("FrmComments");
+            navToProspect.navigate();
+          }              
+        }
+      }
+      catch(e){
+        kony.print("SearchSegmentRowClick catch : "+e);
+      }
+    },
+
+    HideSearch: function() {
+      try{
+        var form = kony.application.getCurrentForm();
+        form.FlxHeader.FlxSearch.isVisible = false;
+        form.SgSearchData.isVisible = false;
+        form.SgmHome.isVisible = true;
+        form.SgSearchData.removeAll();
+        form.FlxHeader.TxtBoxSearch.text = "";
+        kony.print("HideSearch : ");
+      }
+      catch(e){
+        kony.print("HideSearch catch : "+e);
+      }
+    }
+
+  };
+});

@@ -1,0 +1,30 @@
+{
+    "AS_FlexContainer_e5f96204473846cd93a58b1d306bb618": {
+        "id": "AS_FlexContainer_e5f96204473846cd93a58b1d306bb618",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "FrmDirectory",
+            "type": "forms",
+            "platform": "",
+            "KUID": "jccf50ea9f614e1e9fc2978e52279169"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__ee6218bde9ee43a1941f49b1cd062412",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "VisibleSearch(\"Directory\");",
+            "parentId": null,
+            "callbackType": null,
+            "disabled": true
+        }, {
+            "id": "ADD_SNIPPET__a7e9f45b2834490bb1a779128bb5b9c7",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "//VisibleSearch(\"home\");\nthis.view.flxSearch.setVisibility(true);",
+            "parentId": null
+        }]
+    }
+}

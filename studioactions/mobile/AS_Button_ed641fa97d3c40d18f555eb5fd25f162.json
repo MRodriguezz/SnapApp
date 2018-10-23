@@ -1,0 +1,21 @@
+{
+    "AS_Button_ed641fa97d3c40d18f555eb5fd25f162": {
+        "id": "AS_Button_ed641fa97d3c40d18f555eb5fd25f162",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_fc8d82f7626f43e595d36cc5b66e935f",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "MenuUp",
+            "display": "MenuUp",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

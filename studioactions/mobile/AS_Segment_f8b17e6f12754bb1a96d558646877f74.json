@@ -1,0 +1,30 @@
+{
+    "AS_Segment_f8b17e6f12754bb1a96d558646877f74": {
+        "id": "AS_Segment_f8b17e6f12754bb1a96d558646877f74",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "name": "FrmMyNotes",
+            "type": "forms",
+            "platform": "",
+            "KUID": "daf0d93e78d64cbf8144a8c28457e026"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__b1596197df7d4925abadb806b288df27",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "//this.EditNote();\nthis.editNote();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

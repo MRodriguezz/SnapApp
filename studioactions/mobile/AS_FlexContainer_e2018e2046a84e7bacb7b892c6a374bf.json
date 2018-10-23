@@ -1,0 +1,49 @@
+{
+    "AS_FlexContainer_e2018e2046a84e7bacb7b892c6a374bf": {
+        "id": "AS_FlexContainer_e2018e2046a84e7bacb7b892c6a374bf",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "FrmHome",
+            "type": "forms",
+            "platform": "",
+            "KUID": "d0204f72c32e4349b45b4186679b4cab"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___cbf536847e4041d8a84b3fc1dead6d96",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "circleInit",
+            "display": "circleInit",
+            "inputparams": [{
+                "name": "eventObj",
+                "value": " eventobject"
+            }, {
+                "name": "x",
+                "value": " x"
+            }, {
+                "name": "y",
+                "value": " y"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": true,
+            "source": "controller"
+        }, {
+            "id": "ADD_SNIPPET__a9af3350c7ee470f99bc93c2a1ee8fed",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.circleInit.call(this, eventobject, x, y);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

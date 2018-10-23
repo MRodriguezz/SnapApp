@@ -1,0 +1,57 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizRichText",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "number",
+        "value": "26"
+    },
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "4%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sff4b534c2ee4e1481ca3c3edc1cdb76",
+    "_text_": "If you wish to file a Civil Rights program complaint of discrimination, complete the USDA Program Discrimination Complaint Form, found online at \n <a style=\"color:#2d78ff;text-decoration: none;\" href=\"http://www.ascr.usda.gov/complaint_filing_cust.html\">http://www.ascr.usda.gov/complaint_filing_cust.html</a> ,or at any USDA office, or call (866) 632-9992 to request this form.  You may also write a letter containing all of the information requested in the form.  Send your completed complaint form or letter to us by mail at U.S. Department of Agriculture, Director, Office of Adjudication, 1400 Independence Avenue, S.W., Washington, D.C. 20250-9410, by fax (202)690-7442 or email  <a style=\"color:#2d78ff;text-decoration: none;\" href=\"mailto:program.intake@usda.gov\">program.intake@usda.gov</a> USDA is an equal opportunity provider and employers.",
+    "_top_": {
+        "type": "string",
+        "value": "24dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "_wrapping_": 2,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "id": "RichText0b1ae3d718d234d",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "ia2796d8d89044ae829a7caa5c873c93",
+    "linkskin": "sb0b8c6bd00e46e39726e7a7dcf1a6c7",
+    "name": "kony.ui.RichText",
+    "parent": "FlexContainer0iffe17994dda45",
+    "pf": "FrmTerms",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "RichText",
+    "widgetalignment": 5,
+    "zindex": 1
+}

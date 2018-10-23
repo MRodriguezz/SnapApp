@@ -1,0 +1,28 @@
+{
+    "AS_AppEvents_dd38fcb480cd41cc9fb7b795e6eea3f3": {
+        "id": "AS_AppEvents_dd38fcb480cd41cc9fb7b795e6eea3f3",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___d77f04ad950e4e8dbe5655d3f5c3ac50",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "registerPush",
+            "display": "registerPush",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": true,
+            "source": "module"
+        }, {
+            "id": "ADD_SNIPPET__c12b27b4cd91419d8cff15b25d80e4e0",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var ksidTemp = kony.store.getItem(\"ksid\");\nkony.print(\"ksidTem from devicestore: \" + ksidTemp);\nkony.print(\"inside mfInitSuccess: \" + mfInitSuccess);\nif ((mfInitSuccess == true) && ksidTemp === undefined || ksidTemp == null || ksidTemp == \"\" || ksidTemp.length <= 0) {\n  kony.print(\"KSID is empty, hence going to register...\");\n  registerPush();\n}\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

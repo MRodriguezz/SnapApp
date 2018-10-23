@@ -1,0 +1,53 @@
+{
+    "AS_FlexContainer_d5318300b3d4488b82935c53116c42d8": {
+        "id": "AS_FlexContainer_d5318300b3d4488b82935c53116c42d8",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "FrmHome",
+            "type": "forms",
+            "platform": "",
+            "KUID": "d0204f72c32e4349b45b4186679b4cab"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__b6d90e5145a9460aa30605ab3ea6dd38",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.moveCircle();",
+            "parentId": null,
+            "callbackType": null,
+            "disabled": true
+        }, {
+            "id": "INVOKE_FUNCTION___e13bd972583e41e88f84e045b85d9686",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "moveCircle",
+            "display": "moveCircle",
+            "inputparams": [{
+                "name": "eventObj",
+                "value": " eventobject"
+            }, {
+                "name": "x",
+                "value": " x"
+            }, {
+                "name": "y",
+                "value": " y"
+            }, {
+                "name": "widget",
+                "value": ""
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

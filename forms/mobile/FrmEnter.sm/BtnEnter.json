@@ -1,0 +1,62 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "35dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sda7aec3913d4775b4383e3485373cf1",
+    "_text_": "Enter",
+    "_top_": {
+        "type": "string",
+        "value": "516dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "304dp"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "disabledSkins": {},
+    "displaytext": true,
+    "focusskin": "sda7aec3913d4775b4383e3485373cf1",
+    "id": "BtnEnter",
+    "ide_onClick": "AS_Button_h6f84ce45a674ef496debbd04217c163",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "c186c41318354b729dd38e77a2b57732",
+    "name": "kony.ui.Button",
+    "parent": "FlexContainer0e31a3a735da540",
+    "pf": "FrmEnter",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

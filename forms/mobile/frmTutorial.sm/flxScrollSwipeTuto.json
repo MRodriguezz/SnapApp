@@ -1,0 +1,85 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "sec320b3717642a3bf9fecba6aaf2c89",
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_width_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "allboxes": [],
+    "allowhorizontalbounce": false,
+    "allowverticalbounce": true,
+    "bounces": false,
+    "bouncesZoom": false,
+    "canUpdateUI": true,
+    "children": [
+        "flxCardTuto00",
+        "flxCardTuto01",
+        "flxCardTuto02",
+        "flxCardTuto03",
+        "flxCardTuto04",
+        "flxCardTuto05",
+        "flxCardTuto06",
+        "flxCardTuto07",
+        "flxCardTuto08",
+        "lblValPosicion"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "decelerat": false,
+    "dragg": false,
+    "enablescrolling": true,
+    "horizontalscrollindicator": true,
+    "id": "flxScrollSwipeTuto",
+    "ide_onScrolling": "AS_FlexScrollContainer_dd273de4f6a441ee857ce02bd7a6fdd0",
+    "info": null,
+    "iphone": {
+        "psp": {
+            "bouncesZoom": false
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "h37b9288a55841d8bf36b956bd8e2c43",
+    "layouttype": 3,
+    "name": "kony.ui.FlexScrollContainer",
+    "pagingenabled": true,
+    "parent": "flxContSwipeTuto",
+    "pf": "frmTutorial",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "scrolldirection": 1,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "track": false,
+    "verticalscrollindicator": false,
+    "wType": "FlexScrollContainer",
+    "widgetalignment": 1,
+    "zindex": 1
+}

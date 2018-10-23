@@ -1,0 +1,24 @@
+{
+    "AS_Button_b7329e6d49124e55882c1e993ff3b47a": {
+        "id": "AS_Button_b7329e6d49124e55882c1e993ff3b47a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmTutorial",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b4d8c275d4b746c79a0ff12c6337e298"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__a89453e0c7044949b7e0869cd2b1f355",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.resetTutorial();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,202 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "8.50%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_skin_": "sf7fea84ed054a5682b7095f6e0fe418",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "areflexpropsreferenced": false,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "Back": {
+            "__events__": {
+                "ide_onTouchEnd": "AS_Image_f92e3c2690794bf0a12910d651faefa3"
+            },
+            "__info__": {
+                "kuid": "j16a5a5191e04172a4c904e710445206",
+                "srcKUID": "g8e4afa42b944e99800c4d0566cd2aa6",
+                "wType": "Image"
+            },
+            "zIndex": {
+                "Default": 1
+            }
+        },
+        "Background": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b82978f2a39a4b6e84a387bc18eef75b",
+                "srcKUID": "d3d90d0b779e4ea891e871793e7ece76",
+                "wType": "Image"
+            },
+            "isVisible": false,
+            "src": "back_blue_header.png"
+        },
+        "FlexContainer0b5c1313bf14043": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "d7db4a37c6844351a853576fee339bfb",
+                "srcKUID": "d27e932d4fb84ddc99683c58d63b928d",
+                "wType": "FlexContainer"
+            },
+            "centerY": {
+                "Default": {
+                    "type": "string",
+                    "value": "50%"
+                }
+            },
+            "isVisible": true,
+            "top": {
+                "Default": {
+                    "type": "string",
+                    "value": "1dp"
+                }
+            },
+            "zIndex": {
+                "Default": 2
+            }
+        },
+        "FlexContainer0eb303a2da5ab4f": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "d314b17ecbf046a69c83a84bfcdf06d4",
+                "srcKUID": "j4be22ae6f35497ab35b2dedf7a712ba",
+                "wType": "FlexContainer"
+            }
+        },
+        "FlxClickCancel": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e749a5fc7d6346c08e7423b7c435a374",
+                "srcKUID": "d1a031b435054b59b47f297fe0127490",
+                "wType": "FlexContainer"
+            }
+        },
+        "FlxClickSearch": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "edb817c168e945c1b50b4d775ad8545f",
+                "srcKUID": "ge29cfed289a4b49b455e8609d7b112b",
+                "wType": "FlexContainer"
+            }
+        },
+        "FlxHeader": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "d2e1de1b6bd743eca85ba24754bc13a7",
+                "srcKUID": "fc4d0c49a0bd4afd95cb62376cbab2ec",
+                "wType": "FlexContainer"
+            }
+        },
+        "FlxSearch": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f114ab22057746f284937c71a1154ff3",
+                "srcKUID": "i763ca2a40474420a211fdffe8e5e2ab",
+                "wType": "FlexContainer"
+            }
+        },
+        "Image0i7393cecf87540": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f0d08d4efddb4845a270c45ce0f08c7c",
+                "srcKUID": "b0b0de1d1add4266a5f17dbde21d5b66",
+                "wType": "Image"
+            },
+            "src": "nav_down_blue.png"
+        },
+        "ImgSearchflx": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f8a887f7f8704b48b0330ba33684b01e",
+                "srcKUID": "g24f991c2c384104bdb765d401ce536d",
+                "wType": "Image"
+            }
+        },
+        "LblCancel": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "eb76982dba5f4af8b6e47fc7ed15fe7d",
+                "srcKUID": "h53fc787681345f99e459ad78295b1c8",
+                "wType": "Label"
+            }
+        },
+        "LblHome": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b1175923324d4d3a8001cfc0a3b0058e",
+                "srcKUID": "i4c3c34778a944a29fa920779d275b3a",
+                "wType": "Label"
+            },
+            "isVisible": true,
+            "text": "COUNTY AGENCY DIRECTORY"
+        },
+        "TxtBoxSearch": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "a7718eedb4224d51ac3491513468ab8e",
+                "srcKUID": "edfbd4a1e3414d4d8ef682143c6c8e3b",
+                "wType": "TextField"
+            }
+        },
+        "search": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "c26cf44088074b69ae1ad2ffe4bac758",
+                "srcKUID": "d6736534fec4447b91ffd058ee764490",
+                "wType": "Image"
+            },
+            "isVisible": false
+        }
+    },
+    "id": "FlxHeader",
+    "info": null,
+    "iscustomlayout": false,
+    "isdatareferenced": false,
+    "isvisible": true,
+    "kuid": "d2e1de1b6bd743eca85ba24754bc13a7",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "onclick": "AS_FlexContainer_ee36521a34944b4b9e8fbc71b20c0e2e",
+    "parent": "FlxContainer",
+    "pf": "FrmDirectoryDescription",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "snaptogrid": true,
+    "sourceUserWidget": "fc4d0c49a0bd4afd95cb62376cbab2ec",
+    "wType": "UserWidgetInstance",
+    "zindex": 20
+}

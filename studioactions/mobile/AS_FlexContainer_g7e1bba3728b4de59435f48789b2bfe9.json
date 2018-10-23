@@ -1,0 +1,24 @@
+{
+    "AS_FlexContainer_g7e1bba3728b4de59435f48789b2bfe9": {
+        "id": "AS_FlexContainer_g7e1bba3728b4de59435f48789b2bfe9",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "FrmHome",
+            "type": "forms",
+            "platform": "",
+            "KUID": "d0204f72c32e4349b45b4186679b4cab"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__fe2b6f8d863446489e8ecbe083f2aa8d",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.animMoveElementsUp(\"FlexContainer0ad0c25fd5df049\", \"-93%\", 0, 0.5)",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

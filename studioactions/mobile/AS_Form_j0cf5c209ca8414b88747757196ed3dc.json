@@ -1,0 +1,30 @@
+{
+    "AS_Form_j0cf5c209ca8414b88747757196ed3dc": {
+        "id": "AS_Form_j0cf5c209ca8414b88747757196ed3dc",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "FrmHome",
+            "type": "forms",
+            "platform": "",
+            "KUID": "d0204f72c32e4349b45b4186679b4cab"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___ca6a82c5c81d49e5a4f5f8b4435ae33d",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "initializeGlobalMenu",
+            "display": "initializeGlobalMenu",
+            "inputparams": [{
+                "name": "segmentMenu"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "AS_Button_h6f84ce45a674ef496debbd04217c163": {
+        "id": "AS_Button_h6f84ce45a674ef496debbd04217c163",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "FrmEnter",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ca520fb2aaf04110b34307d2703b4802"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___h901afe2a81546dcaf8378aebe37614f",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "navigateToHome",
+            "display": "navigateToHome",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

@@ -1,0 +1,207 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        [
+            {
+                "lblHeaderDirectory": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "A"
+                }
+            },
+            [
+                {
+                    "NameDirectory": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Allen"
+                    }
+                },
+                {
+                    "NameDirectory": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Ashland"
+                    }
+                },
+                {
+                    "NameDirectory": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Athens"
+                    }
+                },
+                {
+                    "NameDirectory": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "auglaize"
+                    }
+                },
+                {
+                    "NameDirectory": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Alf"
+                    }
+                }
+            ]
+        ],
+        [
+            {
+                "lblHeaderDirectory": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "B"
+                }
+            },
+            [
+                {
+                    "NameDirectory": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Belmont"
+                    }
+                },
+                {
+                    "NameDirectory": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Brown"
+                    }
+                },
+                {
+                    "NameDirectory": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Butler"
+                    }
+                }
+            ]
+        ],
+        [
+            {
+                "lblHeaderDirectory": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "C"
+                }
+            },
+            [
+                {
+                    "NameDirectory": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Carrol"
+                    }
+                },
+                {
+                    "NameDirectory": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Champaing"
+                    }
+                },
+                {
+                    "NameDirectory": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Clark"
+                    }
+                },
+                {
+                    "NameDirectory": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "char"
+                    }
+                }
+            ]
+        ]
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "23",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": true,
+    "id": "segDirectory",
+    "ide_onRowClick": "AS_Segment_fbbce89efa844791ba5c4aca4e4bd617",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "none"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "caa9111215b0467ebfe34876cf9b9fee",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "FlexContainer0e2fb9e4669a843",
+    "pf": "FrmDirectory",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "j4ca5275487c45a6b6ca2a18611ce815",
+    "rowcounter": 3,
+    "rowfocusskin": "s971dc59eeff484682ba6bdddb70769a",
+    "rowskin": "s8f66daa84ab49899ac60b9c3cb40e37",
+    "rowtemplate": "FlxContet",
+    "screenlevelwidget": false,
+    "seccounter": 2,
+    "sectionHeaderTemplateId": "ddc96b3294474c5185df21a7fade2d48",
+    "sectionheaderskin": "s0d675b173214ed79619b614d479d9da",
+    "sectionheadertemplate": "FlxConten",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorrequired": false,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "FlexContainer0cc96ed320b8e48": "FlexContainer0cc96ed320b8e48",
+        "FlexContainer0hd2bf2967ab24c": "FlexContainer0hd2bf2967ab24c",
+        "FlxConten": "FlxConten",
+        "FlxContet": "FlxContet",
+        "NameDirectory": "NameDirectory",
+        "lblHeaderDirectory": "lblHeaderDirectory"
+    },
+    "zindex": 1
+}

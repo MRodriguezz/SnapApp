@@ -1,0 +1,18 @@
+{
+    "AS_Switch_fb22a806f74a421c81d8f74a48d1002f": {
+        "id": "AS_Switch_fb22a806f74a421c81d8f74a48d1002f",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "WhatNearMe",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ab7a7f105fda463883cea06f4edba3aa"
+        },
+        "language": "js",
+        "actions": []
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "AS_AppEvents_cf5c645f8387463bbc97192365d380c0": {
+        "id": "AS_AppEvents_cf5c645f8387463bbc97192365d380c0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___bb78e4605aaf4579aa7bfb6b11eca54f",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "appServiceSNAP",
+            "display": "appServiceSNAP",
+            "inputparams": [{
+                "name": "params",
+                "value": " eventobject"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

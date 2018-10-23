@@ -1,0 +1,23 @@
+{
+    "AS_Button_d95f3e9f855e4f98808e9e12d57fa9fe": {
+        "id": "AS_Button_d95f3e9f855e4f98808e9e12d57fa9fe",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "uwu773cce24d0e4461bf73f9c3cde6cbc7",
+            "type": "userwidgets",
+            "KUID": "u773cce24d0e4461bf73f9c3cde6cbc7"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__f699c91a555545619a135224e5619b6e",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "moveBoxMap(\"100%\", 0, 0.8);\nthis.MenuUp();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}
