@@ -70,7 +70,6 @@ define({
   },
   //-----------------------------------------------------------------------------  
   //----------------------------------------------------------------------------- 
-  
   //-----------------------------------------------------------------------------  
   //-----------------------------------------------------------------------------  
   /* This returns width zise value of the screen  */
@@ -80,7 +79,6 @@ define({
   },
   //-----------------------------------------------------------------------------  
   //-----------------------------------------------------------------------------  
-
   //-----------------------------------------------------------------------------  
   //-----------------------------------------------------------------------------  
   /* This returns height zise value of the screen */
@@ -91,14 +89,15 @@ define({
   },
   //-----------------------------------------------------------------------------  
   //----------------------------------------------------------------------------- 
-      //-----------------------------------------------------------------------------  
+  //-----------------------------------------------------------------------------  
   //-----------------------------------------------------------------------------  
   /* this is called when the touch of the user init */
   circleInit:function(eventObj, x, y) {
-    var cX = this.percentScreen("x", x);
+    //var cX = this.percentScreen("x", x);
     var cY = this.percentScreen("y", y);
+    var valueYTotal = String(cY + "%");
+    this.view.lblTestGesture.text = "valueYTotal"
 
-       // this.view.flxSecContainerTrackPad.parent.forceLayout();
   },
   //-----------------------------------------------------------------------------  
   //----------------------------------------------------------------------------- 
@@ -107,22 +106,81 @@ define({
   /* this is called when the user the touch of the user is moving and change the centerX anc centerY values to move 
   and simulte that the option selected by the user is following this touch move */
   moveCircle:function(eventObj, x, y) {
-    //this.view.lblRR.text = "x***"+this.view.frmOptionDrag1.centerX+"/"+"y***"+this.view.frmOptionDrag1.centerY;
-    var cX = this.percentScreen("x", x);
     var cY = this.percentScreen("y", y);
-    var valueXTotal = String(cX + "%");
     var valueYTotal = String(cY + "%");
-    //var nameSel = String(selectedName);
-    this.view["flxSecContainerTrackPad"]["centerX"] = valueXTotal;
-    this.view["flxSecContainerTrackPad"]["centerY"] = valueYTotal;
+    /*var valueYTotal = (cY/2)-50;
+    valueYTotal = Number(valueYTotal);*/
+    
+    /*if(valueYTotal <= 50) {
+      valueYTotal = String(valueYTotal + "%");
+      valueYTotal = String(valueYTotal);
+      this.view.lblTestGesture.text = valueYTotal;
+      this.view["Flxmenu"]["top"] = valueYTotal;
+    }*/
+    /*if(valueYTotal >= 50 && valueYTotal <= 57) {
+      valueYTotal = String(valueYTotal + "%");
+      valueYTotal = String(valueYTotal);
+      this.view.lblTestGesture2.text = valueYTotal;
+      this.view["Flxmenu"]["top"] = valueYTotal;
+    }*/
+    /*if(valueYTotal <= 50) {
+      valueYTotal = String(valueYTotal + "%");
+      valueYTotal = String(valueYTotal);
+      this.view.lblTestGestur3.text = valueYTotal;
+      this.view["Flxmenu"]["top"] = valueYTotal;
+    }*/
   },
+  
   //-----------------------------------------------------------------------------  
   //-----------------------------------------------------------------------------  
   //-----------------------------------------------------------------------------  
   //-----------------------------------------------------------------------------   
   /* this is called when the user end the touch of the option*/
   circleEnd: function(eventObj, x, y) {
-    var cX = this.percentScreen("x", x);
+    //var cX = this.percentScreen("x", x);
     var cY = this.percentScreen("y", y);
-  }
+    var valueYTotal = (cY/2)-50;
+    valueYTotal = Number(valueYTotal);
+    
+    if(valueYTotal <= 8.5) {
+      this.moveElementsModifyingTop("Flxmenu", "0%");
+      
+    } else if(valueYTotal >= 11) {
+      this.moveElementsModifyingTop("Flxmenu", "50%");
+      
+    } else if(valueYTotal > 8.5 && valueYTotal < 11){
+      this.moveElementsModifyingTop("Flxmenu", "-30%");
+    }
+  },
+  
+  moveElementsModifyingTop:function(widget, distance) {
+    var pForm = kony.application.getCurrentForm();
+    try {
+      this.view.Flxmenu.animate(
+        kony.ui.createAnimation({
+          "100":{
+            "top":distance,
+            "stepConfig":{
+              "timingFunction":kony.anim.EASE
+            }
+          }
+        }),{
+          "delay":0,
+          "iterationCount":1,
+          "fillMode":kony.anim.FILL_MODE_FORWARDS,
+          "duration":1
+        },{
+          "animationEnd":function() {
+            if(distance === "0%") {
+              //pForm.Flxmenu.top = "-100%";
+            
+            } else if(distance === "-30%") {
+              //pForm.Flxmenu.top = "0%";
+            }
+             // kony.print("Animation end");
+            }
+          });
+      } catch(err) {
+      }
+    }
 });

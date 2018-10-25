@@ -48,7 +48,7 @@
     "ide_onTouchStart": "AS_FlexContainer_e2018e2046a84e7bacb7b892c6a374bf",
     "info": null,
     "iscustomlayout": false,
-    "isvisible": true,
+    "isvisible": false,
     "kuid": "gfb0f1c8ed8944169e51abb9fded3426",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",

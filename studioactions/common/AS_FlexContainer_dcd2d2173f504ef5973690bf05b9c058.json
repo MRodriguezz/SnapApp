@@ -1,0 +1,29 @@
+{
+    "AS_FlexContainer_dcd2d2173f504ef5973690bf05b9c058": {
+        "id": "AS_FlexContainer_dcd2d2173f504ef5973690bf05b9c058",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "uwu93a9a0b0c4c4dd59dfe5a06c264a24e",
+            "type": "userwidgets",
+            "KUID": "u93a9a0b0c4c4dd59dfe5a06c264a24e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__dfb5b816d9c047aab7ce77aca0f6b15f",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.circleEnd.call(this, eventobject, x, y);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}
