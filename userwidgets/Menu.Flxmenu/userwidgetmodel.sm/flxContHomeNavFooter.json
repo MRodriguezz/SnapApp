@@ -50,7 +50,7 @@
     "kuid": "cd1e2eb5f75f4c86876e1c7ff9ce4e66",
     "layouttype": 4,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxContMenuScroll",
+    "parent": "flxContMenu",
     "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

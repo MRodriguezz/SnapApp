@@ -46,10 +46,7 @@ define({
       kony.print("FrmHomeController HideSearch catch : "+e);
     }
   },
-  
-  
-  
-   //-----------------------------------------------------------------------------  
+  //-----------------------------------------------------------------------------  
   //-----------------------------------------------------------------------------  
   /* This returns the value of the point in the screen that is localized the selection
   of the user converting the values from DPs to percentages */
@@ -96,7 +93,7 @@ define({
     //var cX = this.percentScreen("x", x);
     var cY = this.percentScreen("y", y);
     var valueYTotal = String(cY + "%");
-    this.view.lblTestGesture.text = "valueYTotal"
+    this.view.lblTestGesture.text = valueYTotal;
 
   },
   //-----------------------------------------------------------------------------  
@@ -183,4 +180,5 @@ define({
       } catch(err) {
       }
     }
+  
 });

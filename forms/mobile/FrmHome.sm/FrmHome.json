@@ -28,7 +28,6 @@
     "canUpdateUI": true,
     "children": [
         "FlxContainer",
-        "flxTrackPad",
         "flxSearch"
     ],
     "containerweight": 100,
@@ -45,7 +44,6 @@
     "device": "iPhoneX",
     "displayorientation": 1,
     "enabledforidletimeout": false,
-    "enablescrolling": false,
     "id": "FrmHome",
     "ide_init": "AS_Form_b2b712d3b9f4474895fe1c24cfe8b203",
     "ide_postShow": "AS_Form_j0cf5c209ca8414b88747757196ed3dc",

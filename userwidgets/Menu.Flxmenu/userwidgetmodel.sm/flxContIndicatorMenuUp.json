@@ -3,7 +3,7 @@
     "__parentReadjusting__": false,
     "_bottom_": {
         "type": "string",
-        "value": "6%"
+        "value": "6.50%"
     },
     "_height_": {
         "type": "string",
@@ -45,10 +45,10 @@
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "c7ba736b7a4e4642b6a19044125be560",
+    "kuid": "d2265c973f524d589062a1f5935186a4",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxContMenuScroll",
+    "parent": "Flxmenu",
     "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
@@ -56,5 +56,5 @@
     "snaptogrid": true,
     "wType": "FlexContainer",
     "widgetalignment": 1,
-    "zindex": 3
+    "zindex": 2
 }

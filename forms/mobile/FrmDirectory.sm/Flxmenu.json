@@ -27,6 +27,10 @@
     "_percent_": true,
     "_render_": true,
     "_skin_": "s3914e447fc946d39c1baf8b125e6a8a",
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
     "_width_": {
         "type": "string",
         "value": "100%"
@@ -34,17 +38,13 @@
     "areflexpropsreferenced": false,
     "autogrowmode": 0,
     "canUpdateUI": true,
-    "centery": {
-        "type": "string",
-        "value": "-41%"
-    },
     "clipbounds": true,
     "containerweight": 0,
     "dataDiffs": {
         "CopyFlxClickTerms0b1a659c31e3a4b": {
             "__events__": {},
             "__info__": {
-                "kuid": "fbb728d26fac4797be0249884d626c48",
+                "kuid": "c0c392e70dde40c0bae0a2a1cdceb947",
                 "srcKUID": "b5861ed758744e4a970719844c725fb1",
                 "wType": "FlexContainer"
             }
@@ -52,7 +52,7 @@
         "CopyLblHomeDescription0g90e1dc44c464d": {
             "__events__": {},
             "__info__": {
-                "kuid": "b5d98e53b11a463ab586140b562ad729",
+                "kuid": "dba4f2b792614962937efc99b785b4fd",
                 "srcKUID": "ie3b9d363d3049ea9504a17b3d887cf2",
                 "wType": "Label"
             }
@@ -60,7 +60,7 @@
         "CopylblPrivacyAndTermsText0d687fe2b046e4a": {
             "__events__": {},
             "__info__": {
-                "kuid": "e88b0238397543edbf189544e533f2f7",
+                "kuid": "cc6f1069563542e886e074ccbaffcf7c",
                 "srcKUID": "c8d0333943524b738c0320360ae934c9",
                 "wType": "Label"
             }
@@ -68,7 +68,7 @@
         "CopylblVersionTermsText0bff62817275746": {
             "__events__": {},
             "__info__": {
-                "kuid": "aac5a2c4097b42b692f8f12e34587a95",
+                "kuid": "edcc5b38bdbd4719a8411fa555ee3fe7",
                 "srcKUID": "i9293757172f430b8d8ad0a287f73b3b",
                 "wType": "Label"
             }
@@ -76,9 +76,17 @@
         "CopysearchDescription0c8840e104b4547": {
             "__events__": {},
             "__info__": {
-                "kuid": "d889fc32e80f4c45aeb3fd4f7b582fbb",
+                "kuid": "i96a4efaaf8a45b5b65a332a34c13d9e",
                 "srcKUID": "f82349a00660438a99b5a00cae495f6a",
                 "wType": "Image"
+            }
+        },
+        "FlxClickTerms": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b886efad09684791974176d08d453a12",
+                "srcKUID": "b59201d277a240eca084cfd63c0fa0fa",
+                "wType": "FlexContainer"
             }
         },
         "Flxmenu": {
@@ -94,8 +102,8 @@
         "ImgUp": {
             "__events__": {},
             "__info__": {
-                "kuid": "fbbccbcbb2d341e3876222243462dd41",
-                "srcKUID": "e0e1681ecf9a419081a15953b9d3a001",
+                "kuid": "d0b2c1df2a6645c78bb030645f4f23b8",
+                "srcKUID": "jff7766017054a9b85c2235905e47532",
                 "wType": "Image"
             }
         },
@@ -107,7 +115,7 @@
                 "wType": "Label"
             }
         },
-        "flxContHomeHeaderNav": {
+        "flxContHomeNav": {
             "__events__": {},
             "__info__": {
                 "kuid": "i75822f33ebc4f3c922c1cc3a7f4f829",
@@ -118,39 +126,39 @@
         "flxContHomeNavFooter": {
             "__events__": {},
             "__info__": {
-                "kuid": "j2603e07d20349aca8188f38f482c508",
+                "kuid": "j2bd8b24c68a4c37aea623067076862c",
                 "srcKUID": "cd1e2eb5f75f4c86876e1c7ff9ce4e66",
-                "wType": "FlexContainer"
-            }
-        },
-        "flxContIndicatorMenuDown": {
-            "__events__": {},
-            "__info__": {
-                "kuid": "bd6857bd3488484291bd309ded91c01f",
-                "srcKUID": "g2fe65396cec41d498cac2827bdc22d1",
                 "wType": "FlexContainer"
             }
         },
         "flxContIndicatorMenuUp": {
             "__events__": {},
             "__info__": {
-                "kuid": "h1f9de5695e94ea3b6412d2c23999ee2",
-                "srcKUID": "c7ba736b7a4e4642b6a19044125be560",
+                "kuid": "d80d6a00f5f94315969e1333570f40ae",
+                "srcKUID": "d2265c973f524d589062a1f5935186a4",
                 "wType": "FlexContainer"
             }
         },
-        "flxContMenuScroll": {
+        "flxContMenu": {
             "__events__": {},
             "__info__": {
-                "kuid": "b4e287e6d49d48a083f220d4b90d5db5",
-                "srcKUID": "f1ec02900d274b85a86a2d1ce739f965",
+                "kuid": "ef22a2e33f8d42bc99603afc16278d89",
+                "srcKUID": "c97749ac5ffd486aa0190ac7f81e5a4e",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxContPrivacyAndTerms": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b8f55a9474804844b5cc5ba34a44caa5",
+                "srcKUID": "bd02ce5cba52403faa255e1a00d91a94",
                 "wType": "FlexContainer"
             }
         },
         "flxContPrivacyAndTermsFooter": {
             "__events__": {},
             "__info__": {
-                "kuid": "bfb552f96851441fab5aabc8280f29f9",
+                "kuid": "j259324c934049b4a644517778da6cdd",
                 "srcKUID": "a2c2e8bf5c814b7bbfdebfa6a33bf355",
                 "wType": "FlexContainer"
             }
@@ -166,7 +174,7 @@
         "flxHomeFooter": {
             "__events__": {},
             "__info__": {
-                "kuid": "ad2e79aee30d46079225239a82ea7a28",
+                "kuid": "fcd083a431f3484cab13f5a6718f45ea",
                 "srcKUID": "d833f5fe7e7943c2b07bd1faa91b5119",
                 "wType": "FlexContainer"
             }
@@ -174,17 +182,25 @@
         "flxScrollMenuHome": {
             "__events__": {},
             "__info__": {
-                "kuid": "ec4f7623142d42c3bff4dccab15b0625",
+                "kuid": "ed50b2c2bcd14bc986a0a4137122027c",
                 "srcKUID": "e268ca80de5d45a09238207d003f9d48",
                 "wType": "FlexScrollContainer"
             }
         },
-        "imgDown": {
+        "lblPrivacyAndTermsText": {
             "__events__": {},
             "__info__": {
-                "kuid": "c2e19b52a03240d29d845b8ee2aff181",
-                "srcKUID": "a05de4631e9d4624968b87d261df505b",
-                "wType": "Image"
+                "kuid": "f6d6d05f818543bda4d6df2ae21ac2bf",
+                "srcKUID": "jfa59e1c99be425c8beaed505cdbf6e5",
+                "wType": "Label"
+            }
+        },
+        "lblVersionTermsText": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "i17c12b6b94344b68061f8b19e333ebc",
+                "srcKUID": "jb95db44ccfe4d1ea0a0115ab07d05e2",
+                "wType": "Label"
             }
         },
         "searchDescription": {
@@ -198,7 +214,7 @@
         "segDataHomeMenu": {
             "__events__": {},
             "__info__": {
-                "kuid": "c46b50807c99449a9c7cbcbee00de98c",
+                "kuid": "gbfc2cfe2cd3410ebb8b8f0050fe1f2c",
                 "srcKUID": "ca1e5d3a36cd419182e4f9ffc0f8c21e",
                 "wType": "Segment"
             }

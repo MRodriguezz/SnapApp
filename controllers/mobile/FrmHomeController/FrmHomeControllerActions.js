@@ -9,48 +9,28 @@ define({
     /** init defined for FrmHome **/
     AS_Form_b2b712d3b9f4474895fe1c24cfe8b203: function AS_Form_b2b712d3b9f4474895fe1c24cfe8b203(eventobject) {
         //this.setGesturestoStocks();
-        //setGesture();
+        setGesture();
     },
     /** preShow defined for FrmHome **/
     AS_Form_j6a9c0a83a514324989bf06e55c8621c: function AS_Form_j6a9c0a83a514324989bf06e55c8621c(eventobject) {
         this.HideSearch();
-        /*this.screenWidth();
-this.screenHeight();*/
+        this.screenWidth();
+        this.screenHeight();
     },
     /** postShow defined for FrmHome **/
     AS_Form_j0cf5c209ca8414b88747757196ed3dc: function AS_Form_j0cf5c209ca8414b88747757196ed3dc(eventobject) {
         return initializeGlobalMenu.call(this, null);
     },
-    /** onTouchStart defined for flxTrackPad **/
-    AS_FlexContainer_e2018e2046a84e7bacb7b892c6a374bf: function AS_FlexContainer_e2018e2046a84e7bacb7b892c6a374bf(eventobject, x, y) {
-        this.circleInit.call(this, eventobject, x, y);
-    },
-    /** onTouchMove defined for flxTrackPad **/
-    AS_FlexContainer_bb884bc7be0c4123bdb6c8d2c832fc88: function AS_FlexContainer_bb884bc7be0c4123bdb6c8d2c832fc88(eventobject, x, y) {
-        this.moveCircle.call(this, eventobject, x, y);
-    },
-    /** onTouchEnd defined for flxTrackPad **/
-    AS_FlexContainer_d97767f5f7fe4e4bae981e01d227d183: function AS_FlexContainer_d97767f5f7fe4e4bae981e01d227d183(eventobject, x, y) {
-        this.circleEnd.call(this, eventobject, x, y);
-    },
     /** onTouchStart defined for FlxContainer **/
-    AS_FlexContainer_i87afcb573914552916d22470ca6b932: function AS_FlexContainer_i87afcb573914552916d22470ca6b932(eventobject, x, y) {
+    AS_FlexContainer_d3002ca27392463bbec94fc7db8a374e: function AS_FlexContainer_d3002ca27392463bbec94fc7db8a374e(eventobject, x, y) {
         this.circleInit.call(this, eventobject, x, y);
     },
     /** onTouchMove defined for FlxContainer **/
-    AS_FlexContainer_c377737e81da4ec2bc7d4a73947ef997: function AS_FlexContainer_c377737e81da4ec2bc7d4a73947ef997(eventobject, x, y) {
-        //this.moveCircle.call(this, eventobject, x, y);
+    AS_FlexContainer_fa1cab32216043dc84bddc06e10b3203: function AS_FlexContainer_fa1cab32216043dc84bddc06e10b3203(eventobject, x, y) {
+        this.moveCircle.call(this, eventobject, x, y);
     },
     /** onTouchEnd defined for FlxContainer **/
-    AS_FlexContainer_bf594b073042479983dede7094b5b35a: function AS_FlexContainer_bf594b073042479983dede7094b5b35a(eventobject, x, y) {
-        //this.circleEnd.call(this, eventobject, x, y);
-    },
-    /** onTouchStart defined for Flxmenu **/
-    AS_UWI_f5cdbfeb95564a128ce0489bef0eb498: function AS_UWI_f5cdbfeb95564a128ce0489bef0eb498(eventobject, x, y) {
-        this.circleInit.call(this, eventobject, x, y);
-    },
-    /** onTouchMove defined for Flxmenu **/
-    AS_UWI_c1efd9fac1624b4792b0a15ca07790ba: function AS_UWI_c1efd9fac1624b4792b0a15ca07790ba(eventobject, x, y) {
-        this.moveCircle.call(this, eventobject, x, y);
+    AS_FlexContainer_d20039ecc85e46b6951855dd34bd9e2a: function AS_FlexContainer_d20039ecc85e46b6951855dd34bd9e2a(eventobject, x, y) {
+        this.circleEnd.call(this, eventobject, x, y);
     }
 });

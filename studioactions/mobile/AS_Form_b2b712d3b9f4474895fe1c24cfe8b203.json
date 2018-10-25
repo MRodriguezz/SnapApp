@@ -16,7 +16,7 @@
         "actions": [{
             "id": "ADD_SNIPPET__cfcc6158527c48aaa823ee24f6ea5cf1",
             "type": "ADD_SNIPPET",
-            "codeSnippet": "//this.setGesturestoStocks();\n//setGesture();",
+            "codeSnippet": "//this.setGesturestoStocks();\nsetGesture();",
             "parentId": null,
             "callbackType": null
         }]

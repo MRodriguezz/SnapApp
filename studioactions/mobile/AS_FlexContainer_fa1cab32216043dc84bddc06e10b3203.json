@@ -1,0 +1,30 @@
+{
+    "AS_FlexContainer_fa1cab32216043dc84bddc06e10b3203": {
+        "id": "AS_FlexContainer_fa1cab32216043dc84bddc06e10b3203",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "FrmHome",
+            "type": "forms",
+            "platform": "",
+            "KUID": "d0204f72c32e4349b45b4186679b4cab"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__eddc03fd31134d4d97ac1f8caa84981c",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.moveCircle.call(this, eventobject, x, y);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}
