@@ -9,6 +9,7 @@ define({
     },
     /** preShow defined for FrmHomeDescription **/
     AS_Form_jc64dc28b9d44df8bbcb54b223b80e58: function AS_Form_jc64dc28b9d44df8bbcb54b223b80e58(eventobject) {
+        var self = this;
         this.LoadData()
     }
 });

@@ -1,10 +1,16 @@
 {
-    "AS_Form_b2b712d3b9f4474895fe1c24cfe8b203": {
-        "id": "AS_Form_b2b712d3b9f4474895fe1c24cfe8b203",
+    "AS_FlexContainer_c5725408b8c44d5fa346b34ae468c8cf": {
+        "id": "AS_FlexContainer_c5725408b8c44d5fa346b34ae468c8cf",
         "type": "ACTION_SEQUENCE",
         "params": [{
             "datatype": "collection",
             "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
         }],
         "contextObj": {
             "name": "FrmHome",
@@ -14,9 +20,9 @@
         },
         "language": "js",
         "actions": [{
-            "id": "ADD_SNIPPET__cfcc6158527c48aaa823ee24f6ea5cf1",
+            "id": "ADD_SNIPPET__f0cddeeb5b5e49d482911a1924156f3c",
             "type": "ADD_SNIPPET",
-            "codeSnippet": "//this.setGesturestoStocks();\n//setGesture();",
+            "codeSnippet": "this.moveEnd.call(this, eventobject, x, y);",
             "parentId": null,
             "callbackType": null
         }]

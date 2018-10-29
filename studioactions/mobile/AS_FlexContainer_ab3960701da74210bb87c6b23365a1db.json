@@ -24,7 +24,13 @@
             "type": "INVOKE_FUNCTION",
             "sequenceKUID": "circleInit",
             "display": "circleInit",
-            "inputparams": [],
+            "inputparams": [{
+                "name": "eventObj"
+            }, {
+                "name": "x"
+            }, {
+                "name": "y"
+            }],
             "parentId": null,
             "callbackType": null,
             "disabled": null,

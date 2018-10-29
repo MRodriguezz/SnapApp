@@ -4,6 +4,7 @@ define({
     */
     /** onClick defined for FlexContainer0a595eaae467741 **/
     AS_FlexContainer_i075c4d0f8114675b46deeb9a0129b18: function AS_FlexContainer_i075c4d0f8114675b46deeb9a0129b18(eventobject) {
+        var self = this;
         CallMap()
     }
 });

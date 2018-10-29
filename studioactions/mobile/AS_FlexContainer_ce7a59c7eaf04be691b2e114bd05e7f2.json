@@ -1,0 +1,49 @@
+{
+    "AS_FlexContainer_ce7a59c7eaf04be691b2e114bd05e7f2": {
+        "id": "AS_FlexContainer_ce7a59c7eaf04be691b2e114bd05e7f2",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "FrmHome",
+            "type": "forms",
+            "platform": "",
+            "KUID": "d0204f72c32e4349b45b4186679b4cab"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__bec3902123f140cca8d916050095f64d",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.moveInit.call(this, eventobject, x, y);",
+            "parentId": null,
+            "callbackType": null
+        }, {
+            "id": "INVOKE_FUNCTION___e50dd5fb4508481ba828c20931c8ed24",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "moveInit",
+            "display": "moveInit",
+            "inputparams": [{
+                "name": "eventObj",
+                "value": " eventobject"
+            }, {
+                "name": "x",
+                "value": " x"
+            }, {
+                "name": "y",
+                "value": " y"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": true,
+            "source": "controller"
+        }]
+    }
+}

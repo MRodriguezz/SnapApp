@@ -38,7 +38,7 @@
     },
     "centery": {
         "type": "string",
-        "value": "35%"
+        "value": "44%"
     },
     "containerweight": 100,
     "contentalignment": 4,
@@ -56,7 +56,7 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "af4880a2f8b0477daa5b6b33a94b2163",
+    "kuid": "e8bd993172d14446ab265c489c6cb42a",
     "name": "kony.ui.Label",
     "parent": "FlxContainer",
     "pf": "FrmHome",

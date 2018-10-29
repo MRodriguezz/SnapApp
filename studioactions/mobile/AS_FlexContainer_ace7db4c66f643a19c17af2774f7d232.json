@@ -1,10 +1,16 @@
 {
-    "AS_Form_b2b712d3b9f4474895fe1c24cfe8b203": {
-        "id": "AS_Form_b2b712d3b9f4474895fe1c24cfe8b203",
+    "AS_FlexContainer_ace7db4c66f643a19c17af2774f7d232": {
+        "id": "AS_FlexContainer_ace7db4c66f643a19c17af2774f7d232",
         "type": "ACTION_SEQUENCE",
         "params": [{
             "datatype": "collection",
             "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
         }],
         "contextObj": {
             "name": "FrmHome",
@@ -14,9 +20,9 @@
         },
         "language": "js",
         "actions": [{
-            "id": "ADD_SNIPPET__cfcc6158527c48aaa823ee24f6ea5cf1",
+            "id": "ADD_SNIPPET__be3a2611016c456a971f99bfaa65ba48",
             "type": "ADD_SNIPPET",
-            "codeSnippet": "//this.setGesturestoStocks();\n//setGesture();",
+            "codeSnippet": "this.moveCircle.call(this, eventobject, x, y);",
             "parentId": null,
             "callbackType": null
         }]

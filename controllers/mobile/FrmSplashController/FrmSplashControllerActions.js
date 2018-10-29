@@ -4,10 +4,12 @@ define({
     */
     /** preShow defined for FrmSplash **/
     AS_Form_a2717534c35a486e95ccca1220182083: function AS_Form_a2717534c35a486e95ccca1220182083(eventobject) {
+        var self = this;
         this.view.ImgOhio.opacity = 0;
     },
     /** postShow defined for FrmSplash **/
     AS_Form_d92b0df5eea849d992ff3a4ba438e796: function AS_Form_d92b0df5eea849d992ff3a4ba438e796(eventobject) {
+        var self = this;
         this.opacitySplash();
     }
 });

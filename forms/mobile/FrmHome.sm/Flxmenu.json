@@ -36,7 +36,6 @@
         "value": "100%"
     },
     "areflexpropsreferenced": false,
-    "autogrowmode": 0,
     "canUpdateUI": true,
     "clipbounds": true,
     "containerweight": 0,
@@ -154,6 +153,18 @@
                 "kuid": "e9a0afaab3f4415bbc0826c06401d320",
                 "srcKUID": "c97749ac5ffd486aa0190ac7f81e5a4e",
                 "wType": "FlexContainer"
+            },
+            "left": {
+                "Default": {
+                    "type": "string",
+                    "value": "0%"
+                }
+            },
+            "top": {
+                "Default": {
+                    "type": "string",
+                    "value": "0%"
+                }
             }
         },
         "flxContPrivacyAndTerms": {
@@ -244,5 +255,6 @@
     "retainflexpositionproperties": false,
     "snaptogrid": true,
     "sourceUserWidget": "f3acca4e695f4c6cac9aaa57dd24f626",
-    "wType": "UserWidgetInstance"
+    "wType": "UserWidgetInstance",
+    "zindex": 2
 }

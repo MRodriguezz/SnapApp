@@ -16,7 +16,7 @@
         "actions": [{
             "id": "ADD_SNIPPET__e1b4857acdda4e9da9ac841febf93eb8",
             "type": "ADD_SNIPPET",
-            "codeSnippet": "this.HideSearch();\nthis.screenWidth();\nthis.screenHeight();",
+            "codeSnippet": "this.HideSearch();\n/*this.screenWidth();\nthis.screenHeight();*/",
             "parentId": null,
             "callbackType": null
         }]
