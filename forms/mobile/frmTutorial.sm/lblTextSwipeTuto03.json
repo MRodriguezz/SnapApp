@@ -19,14 +19,14 @@
         0
     ],
     "_skin_": "s61cee5ea7ec4f91ac2f68b5e8934d08",
-    "_text_": "Words highlighted in blue can be tapped to show more information",
+    "_text_": "Tap again to hide information",
     "_top_": {
         "type": "string",
-        "value": "4%"
+        "value": "7%"
     },
     "_width_": {
-        "type": "string",
-        "value": "80%"
+        "type": "ref",
+        "value": "preferred"
     },
     "_wrapping_": 2,
     "android": {

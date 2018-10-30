@@ -5,7 +5,7 @@
     "_base64_": null,
     "_height_": {
         "type": "string",
-        "value": "80%"
+        "value": "100%"
     },
     "_margin_": [
         0,
@@ -20,10 +20,10 @@
         0
     ],
     "_skin_": "s20d297763a345eaa99dbffa212eb2dc",
-    "_src_": "tap.gif",
+    "_src_": "zoom.gif",
     "_width_": {
         "type": "string",
-        "value": "80%"
+        "value": "100%"
     },
     "canUpdateUI": true,
     "centerx": {
@@ -42,14 +42,14 @@
         "templateType": "forms",
         "topLevelBox": null
     },
-    "id": "imgSwipeIcon04",
+    "id": "imgZoomIcon",
     "imagescalemode": 1,
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "h3fe5309c54548108c09ed289fff073b",
+    "kuid": "abb81c88adaf4286989eb95682809ccf",
     "name": "kony.ui.Image2",
-    "parent": "flxContSwipeIndicator04",
+    "parent": "flxContZoomIndicator09",
     "pf": "frmTutorial",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

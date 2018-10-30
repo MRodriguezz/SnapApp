@@ -19,7 +19,7 @@
         0
     ],
     "_skin_": "s61cee5ea7ec4f91ac2f68b5e8934d08",
-    "_text_": "In screens like this, tap on cards to display more information.",
+    "_text_": "The back button takes you back to the previous screen you viewed.",
     "_top_": {
         "type": "string",
         "value": "4%"

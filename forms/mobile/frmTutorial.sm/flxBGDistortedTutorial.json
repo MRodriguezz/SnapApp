@@ -42,7 +42,8 @@
         "lblTextSwipeTuto02",
         "lblTextSwipeTuto03",
         "lblTextSwipeTuto04",
-        "lblTextSwipeTuto05"
+        "lblTextSwipeTuto05",
+        "lblTextSwipeTuto06"
     ],
     "clipbounds": true,
     "containerweight": 100,

@@ -19,14 +19,14 @@
         0
     ],
     "_skin_": "s61cee5ea7ec4f91ac2f68b5e8934d08",
-    "_text_": "Back button take you home",
+    "_text_": "The map key shows what each pin represents. You can hide or show each pin type by tapping on its button.",
     "_top_": {
         "type": "string",
-        "value": "7%"
+        "value": "4%"
     },
     "_width_": {
         "type": "string",
-        "value": "75%"
+        "value": "85%"
     },
     "_wrapping_": 2,
     "android": {

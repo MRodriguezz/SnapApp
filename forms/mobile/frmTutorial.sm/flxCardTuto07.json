@@ -36,7 +36,8 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "img07"
+        "img07",
+        "flxContSwipeIndicator07"
     ],
     "clipbounds": true,
     "containerweight": 100,

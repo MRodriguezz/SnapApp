@@ -113,13 +113,13 @@ define({
     /*var valueYTotal = (cY/2)-50;
     cY = Number(valueYTotal);*/
     
-    if(cY <= 7.5) {
+    if(cY <= 8.5) {
       this.moveElementsModifyingTop("Flxmenu", "0%");
      
     /*} else if(cY >= 15.5) {
       this.moveElementsModifyingTop("Flxmenu", "50%");*/
       
-    } else if(cY >= 7.5 && cY <= 95.5) {
+    } else if(cY >= 8.5 && cY <= 95.5) {
       this.moveElementsModifyingTop("Flxmenu", "-100%");
     }
   },
@@ -144,8 +144,7 @@ define({
           "animationEnd": function(){
           }
         });
-    }catch(err){
-      //kony.print("Something went wrong with_: moveElementsModifyingLeft");
+    } catch(err) {
     }
   }
 });

@@ -3,7 +3,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "92%"
+        "value": "95%"
     },
     "_left_": {
         "type": "string",
@@ -26,7 +26,7 @@
     "_skin_": "sd62dd34ac3e481b87487ab023a0e579",
     "_top_": {
         "type": "string",
-        "value": "-24%"
+        "value": "15%"
     },
     "_width_": {
         "type": "string",
@@ -37,7 +37,7 @@
     "canUpdateUI": true,
     "children": [
         "img02",
-        "flxContSwipeIndicator02"
+        "flxContSwipeIndicator08"
     ],
     "clipbounds": true,
     "containerweight": 100,
@@ -46,7 +46,7 @@
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "h9569a7a36ba4fa0902fcb0d4387bcad",
+    "kuid": "fd733bfb85074e45a2277c9ae7e55801",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
     "parent": "flxScrollSwipeTuto",

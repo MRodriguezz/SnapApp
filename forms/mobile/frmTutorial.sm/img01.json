@@ -20,7 +20,7 @@
         0
     ],
     "_skin_": "s20d297763a345eaa99dbffa212eb2dc",
-    "_src_": "slide_02.png",
+    "_src_": "slide_03.png",
     "_width_": {
         "type": "string",
         "value": "100%"
@@ -43,11 +43,11 @@
         "topLevelBox": null
     },
     "id": "img01",
-    "imagescalemode": 1,
+    "imagescalemode": 0,
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "bfb4524dd4184daeb52775780b8a2618",
+    "kuid": "e9459d4c45014862977fff45d79f93b0",
     "name": "kony.ui.Image2",
     "parent": "flxCardTuto01",
     "pf": "frmTutorial",

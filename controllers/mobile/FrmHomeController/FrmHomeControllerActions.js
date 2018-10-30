@@ -7,21 +7,6 @@ define({
         var self = this;
         this.NavigateHomeDescription()
     },
-    /** onTouchStart defined for FlxContainer **/
-    AS_FlexContainer_ce7a59c7eaf04be691b2e114bd05e7f2: function AS_FlexContainer_ce7a59c7eaf04be691b2e114bd05e7f2(eventobject, x, y) {
-        var self = this;
-        this.moveInit.call(this, eventobject, x, y);
-    },
-    /** onTouchMove defined for FlxContainer **/
-    AS_FlexContainer_ad8473e85e564f7a9d8e536122f41325: function AS_FlexContainer_ad8473e85e564f7a9d8e536122f41325(eventobject, x, y) {
-        var self = this;
-        this.moveMoving.call(this, eventobject, x, y);
-    },
-    /** onTouchEnd defined for FlxContainer **/
-    AS_FlexContainer_c5725408b8c44d5fa346b34ae468c8cf: function AS_FlexContainer_c5725408b8c44d5fa346b34ae468c8cf(eventobject, x, y) {
-        var self = this;
-        this.moveEnd.call(this, eventobject, x, y);
-    },
     /** init defined for FrmHome **/
     AS_Form_b2b712d3b9f4474895fe1c24cfe8b203: function AS_Form_b2b712d3b9f4474895fe1c24cfe8b203(eventobject) {
         var self = this;
@@ -39,5 +24,20 @@ this.screenHeight();*/
     AS_Form_j0cf5c209ca8414b88747757196ed3dc: function AS_Form_j0cf5c209ca8414b88747757196ed3dc(eventobject) {
         var self = this;
         return initializeGlobalMenu.call(this, null);
+    },
+    /** onTouchStart defined for flxMenuTap **/
+    AS_FlexContainer_i090cc00318f41e8a0f35b67c9de664b: function AS_FlexContainer_i090cc00318f41e8a0f35b67c9de664b(eventobject, x, y) {
+        var self = this;
+        this.moveInit.call(this, eventobject, x, y);
+    },
+    /** onTouchMove defined for flxMenuTap **/
+    AS_FlexContainer_a75852c1b63148b8aee23f0c69b638b7: function AS_FlexContainer_a75852c1b63148b8aee23f0c69b638b7(eventobject, x, y) {
+        var self = this;
+        this.moveMoving.call(this, eventobject, x, y);
+    },
+    /** onTouchEnd defined for flxMenuTap **/
+    AS_FlexContainer_beffece1d2754200bb08634a82b6c31e: function AS_FlexContainer_beffece1d2754200bb08634a82b6c31e(eventobject, x, y) {
+        var self = this;
+        this.moveEnd.call(this, eventobject, x, y);
     }
 });

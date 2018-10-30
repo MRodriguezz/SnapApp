@@ -19,7 +19,7 @@
         0
     ],
     "_skin_": "s61cee5ea7ec4f91ac2f68b5e8934d08",
-    "_text_": "Words highlighted in blue can be tapped to show more information.",
+    "_text_": "Tap on a pin for information about that location.",
     "_top_": {
         "type": "string",
         "value": "4%"
@@ -42,7 +42,7 @@
     },
     "containerweight": 100,
     "contentalignment": 5,
-    "id": "lblTextSwipeTuto04",
+    "id": "lblTextSwipeTuto06",
     "info": null,
     "ipad": {
         "psp": {
@@ -56,7 +56,7 @@
     },
     "iscustomlayout": false,
     "isvisible": false,
-    "kuid": "b171b80e0003432db95587c4f5d9d312",
+    "kuid": "bf0b3372d76b43c095c60c377d889fbf",
     "name": "kony.ui.Label",
     "parent": "flxBGDistortedTutorial",
     "pf": "frmTutorial",

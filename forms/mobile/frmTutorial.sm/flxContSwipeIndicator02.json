@@ -3,7 +3,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "55dp"
+        "value": "60dp"
     },
     "_margin_": [
         0,
@@ -26,7 +26,7 @@
     },
     "_width_": {
         "type": "string",
-        "value": "55dp"
+        "value": "60dp"
     },
     "allboxes": [],
     "autogrowmode": 0,
@@ -48,7 +48,7 @@
     "kuid": "h4046856904f4bf1958b9262a4809cf5",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxCardTuto02",
+    "parent": "flxCardTuto01",
     "pf": "frmTutorial",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

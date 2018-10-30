@@ -3,11 +3,11 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "95%"
+        "value": "100%"
     },
     "_left_": {
         "type": "string",
-        "value": "15%"
+        "value": "0%"
     },
     "_margin_": [
         0,
@@ -26,36 +26,38 @@
     "_skin_": "sd62dd34ac3e481b87487ab023a0e579",
     "_top_": {
         "type": "string",
-        "value": "15%"
+        "value": "0%"
     },
     "_width_": {
         "type": "string",
-        "value": "85%"
+        "value": "100%"
     },
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "img03",
-        "flxContSwipeIndicator03"
+        "Flxmenu"
     ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "flxCardTuto03",
+    "id": "flxMenuTap",
+    "ide_onTouchEnd": "AS_FlexContainer_beffece1d2754200bb08634a82b6c31e",
+    "ide_onTouchMove": "AS_FlexContainer_a75852c1b63148b8aee23f0c69b638b7",
+    "ide_onTouchStart": "AS_FlexContainer_i090cc00318f41e8a0f35b67c9de664b",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "f55e4ce7169d4b89a9b6d5c5a5c21eac",
+    "kuid": "faa3878fd69d4ce9b36fc0bad19dd5bc",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxScrollSwipeTuto",
-    "pf": "frmTutorial",
+    "parent": "FlxContainer",
+    "pf": "FrmHome",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "snapgridsize": 10,
     "snaptogrid": true,
     "wType": "FlexContainer",
     "widgetalignment": 1,
-    "zindex": 1
+    "zindex": 10
 }

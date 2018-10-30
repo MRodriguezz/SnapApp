@@ -20,17 +20,17 @@
         0
     ],
     "_skin_": "s20d297763a345eaa99dbffa212eb2dc",
-    "_src_": "slide_09.png",
+    "_src_": "slide_07.png",
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
     "_width_": {
         "type": "string",
         "value": "100%"
     },
     "canUpdateUI": true,
     "centerx": {
-        "type": "string",
-        "value": "50%"
-    },
-    "centery": {
         "type": "string",
         "value": "50%"
     },
@@ -43,13 +43,13 @@
         "topLevelBox": null
     },
     "id": "img09",
-    "imagescalemode": 1,
+    "imagescalemode": 0,
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "fdb3b278f9f448a3b8b8c1bd37f20489",
+    "kuid": "da059dfb2974473988a5fd5ff6ea9b14",
     "name": "kony.ui.Image2",
-    "parent": "flxCardTuto08",
+    "parent": "flxCardTuto09",
     "pf": "frmTutorial",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

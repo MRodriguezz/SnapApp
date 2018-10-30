@@ -3,11 +3,11 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "95%"
+        "value": "8dp"
     },
     "_left_": {
         "type": "string",
-        "value": "15%"
+        "value": "5%"
     },
     "_margin_": [
         0,
@@ -23,33 +23,30 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "sd62dd34ac3e481b87487ab023a0e579",
-    "_top_": {
-        "type": "string",
-        "value": "15%"
-    },
+    "_skin_": "s89fdececaab40009a9df79d3edf3245",
     "_width_": {
         "type": "string",
-        "value": "85%"
+        "value": "8dp"
     },
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
-    "children": [
-        "img03",
-        "flxContSwipeIndicator03"
-    ],
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "children": [],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "flxCardTuto03",
+    "id": "flxSwipeIndicator09",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "f55e4ce7169d4b89a9b6d5c5a5c21eac",
+    "kuid": "c220dc722e81486aa893e922db25a267",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxScrollSwipeTuto",
+    "parent": "flxSwipeIndicators",
     "pf": "frmTutorial",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

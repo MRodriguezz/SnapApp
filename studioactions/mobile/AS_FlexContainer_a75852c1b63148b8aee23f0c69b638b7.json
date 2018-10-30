@@ -1,0 +1,30 @@
+{
+    "AS_FlexContainer_a75852c1b63148b8aee23f0c69b638b7": {
+        "id": "AS_FlexContainer_a75852c1b63148b8aee23f0c69b638b7",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "FrmHome",
+            "type": "forms",
+            "platform": "",
+            "KUID": "d0204f72c32e4349b45b4186679b4cab"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__a17254c0f1244aa99d15813012100f09",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.moveMoving.call(this, eventobject, x, y);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

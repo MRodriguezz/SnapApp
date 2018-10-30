@@ -1,0 +1,30 @@
+{
+    "AS_FlexContainer_beffece1d2754200bb08634a82b6c31e": {
+        "id": "AS_FlexContainer_beffece1d2754200bb08634a82b6c31e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "FrmHome",
+            "type": "forms",
+            "platform": "",
+            "KUID": "d0204f72c32e4349b45b4186679b4cab"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__i3453056158a4cce846191d02e33cb02",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.moveEnd.call(this, eventobject, x, y);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -5,7 +5,7 @@
     "_base64_": null,
     "_height_": {
         "type": "string",
-        "value": "80%"
+        "value": "100%"
     },
     "_margin_": [
         0,
@@ -20,10 +20,10 @@
         0
     ],
     "_skin_": "s20d297763a345eaa99dbffa212eb2dc",
-    "_src_": "tap.gif",
+    "_src_": "slide_10.png",
     "_width_": {
         "type": "string",
-        "value": "80%"
+        "value": "100%"
     },
     "canUpdateUI": true,
     "centerx": {
@@ -42,14 +42,14 @@
         "templateType": "forms",
         "topLevelBox": null
     },
-    "id": "imgSwipeIcon04",
+    "id": "img08",
     "imagescalemode": 1,
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "h3fe5309c54548108c09ed289fff073b",
+    "kuid": "bc8da86ab83b499aaac2257480fb9d15",
     "name": "kony.ui.Image2",
-    "parent": "flxContSwipeIndicator04",
+    "parent": "flxCardTuto08",
     "pf": "frmTutorial",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

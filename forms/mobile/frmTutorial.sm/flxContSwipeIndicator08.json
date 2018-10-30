@@ -3,7 +3,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "55dp"
+        "value": "50dp"
     },
     "_margin_": [
         0,
@@ -22,18 +22,18 @@
     "_skin_": "sd62dd34ac3e481b87487ab023a0e579",
     "_top_": {
         "type": "string",
-        "value": "5.949999999999999%"
+        "value": "8.95%"
     },
     "_width_": {
         "type": "string",
-        "value": "55dp"
+        "value": "50dp"
     },
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
     "centerx": {
         "type": "string",
-        "value": "17.24%"
+        "value": "16.24%"
     },
     "children": [
         "imgSwipeIcon08"
@@ -48,7 +48,7 @@
     "kuid": "bcf51b551e794a0ea18f1495967b4b04",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxCardTuto08",
+    "parent": "flxCardTuto02",
     "pf": "frmTutorial",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
