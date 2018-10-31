@@ -228,7 +228,7 @@
     "layouttype": 2,
     "masterType": 0,
     "name": "kony.ui.UserWidgetInstance",
-    "parent": "flxMenuTap",
+    "parent": "FlxContainer",
     "pf": "FrmHome",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

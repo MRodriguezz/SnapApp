@@ -421,7 +421,7 @@
     <attributes name="enablesearchbar" value="false"/>
     <attributes name="tcandroid480basefontsize" value="16"/>
     <attributes name="WRITE_SETTINGS" value="false"/>
-    <attributes name="cloud_account_guid" value=""/>
+    <attributes name="cloud_account_guid" value="60ab69f5-a031-4080-a9ee-9b4d21a64352"/>
     <attributes name="statusBarHidden" value="false"/>
     <attributes name="andmaxsdkkey" value="None"/>
     <attributes name="wp10chat" value="false"/>
@@ -450,7 +450,7 @@
     <attributes name="wp8packagepublisheridkey" value=""/>
     <attributes name="location" value="false"/>
     <attributes name="winphn10bgagentclassname" value=""/>
-    <attributes name="cloud_url" value=""/>
+    <attributes name="cloud_url" value="https://m100008014001.konycloud.com"/>
     <attributes name="disablehttpskey" value="false"/>
     <attributes name="Music_Library" value="true"/>
     <attributes name="Location" value="true"/>
@@ -496,7 +496,7 @@
     <attributes name="ipad_appicon_1x_76" value=""/>
     <attributes name="keyPassword" value=""/>
     <attributes name="userAccountInformation" value="false"/>
-    <attributes name="cloud_env_name" value=""/>
+    <attributes name="cloud_env_name" value="Cognits-m100008014001"/>
     <attributes name="tcbb480basefontsize" value="17"/>
     <attributes name="SET_PREFERRED_APPLICATIONS" value="false"/>
     <attributes name="WP8_ID_CAP_MICROPHONE" value="true"/>
@@ -568,7 +568,7 @@
     <attributes name="wp81spackagedisplaynamekey" value="snapapp"/>
     <attributes name="windowsmapkey" value=""/>
     <attributes name="bb10keystorepassword" value=""/>
-    <attributes name="cloud_account_id" value=""/>
+    <attributes name="cloud_account_id" value="100008014"/>
     <attributes name="Enterprise_Authentication" value="true"/>
     <attributes name="BATTERY_STATS" value="false"/>
     <attributes name="internetClient" value="false"/>
@@ -602,6 +602,6 @@
     <attributes name="build" value="release"/>
     <attributes name="certs_key_store_type" value="JKS"/>
     <attributes name="spaandroidtab800basefontsize" value="14"/>
-    <attributes name="cloud_env_GUID" value=""/>
+    <attributes name="cloud_env_GUID" value="6a81ec75-fbd2-44a7-9212-59d24830dd00"/>
     <attributes name="defaultlocalekey" value=""/>
 </properties>

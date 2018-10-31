@@ -92,7 +92,7 @@ define({
     var cY = this.percentScreen("y", y);
     var valueYTotal = String(cY + "%");
     this.view.lblTestGesture.text = valueYTotal;
-     //alert(this.view.lblTestGesture.text = valueYTotal);
+    //alert(this.view.lblTestGesture.text = valueYTotal);
   },
   //----------------------------------------------------------------------------
   //Created by:CruzAmbrocio
@@ -109,9 +109,6 @@ define({
   moveEnd:function(eventObj, x, y) {
     var pForm = kony.application.getCurrentForm();
     var cY = this.percentScreen("y", y);
-    // var valueXTotal = String("-"+cX + "%");
-    /*var valueYTotal = (cY/2)-50;
-    cY = Number(valueYTotal);*/
     
     if(cY <= 8.5) {
       this.moveElementsModifyingTop("Flxmenu", "0%");
@@ -123,7 +120,10 @@ define({
       this.moveElementsModifyingTop("Flxmenu", "-100%");
     }
   },
-
+  //----------------------------------------------------------------------------
+  //Created by:CruzAmbrocio
+  //Date_10-03-18
+  //----------------------------------------------------------------------------
   moveElementsModifyingTop:function(widget, distance) {
     var pForm = kony.application.getCurrentForm();
     try {

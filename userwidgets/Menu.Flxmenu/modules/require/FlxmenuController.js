@@ -1,24 +1,23 @@
 define({
-   /*animMoveElementsUps:function() {
-     var form = kony.application.getCurrentForm();
-       form.Flxmenu.animate(
-         kony.ui.createAnimation(
-           {"100": {
-             "top":'-93%',"stepConfig":{
-               "timingFunction":kony.anim.EASE
-             }
-           }
-           }
-         ),
-         {"delay":0,"iterationCount":1,"fillMode":
-          kony.anim.FILL_MODE_FORWARDS,"duration":0.5},
-         {"animationEnd" : function() {
-              form.Flxmenu.isVisible= false;
-         }
-         }
-       );
-
-   },*/
+  animMoveElementsUps:function() {
+    var form = kony.application.getCurrentForm();
+    form.Flxmenu.animate(
+      kony.ui.createAnimation(
+        {"100": {
+          "top":'-93%',"stepConfig":{
+            "timingFunction":kony.anim.EASE
+          }
+        }
+        }
+      ),
+      {"delay":0,"iterationCount":1,"fillMode":
+       kony.anim.FILL_MODE_FORWARDS,"duration":0.5},
+      {"animationEnd" : function() {
+        form.Flxmenu.isVisible= false;
+      }
+      }
+    );
+  }
   
   
   
