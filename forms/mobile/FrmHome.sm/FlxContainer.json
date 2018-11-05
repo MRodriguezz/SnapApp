@@ -39,12 +39,8 @@
         "flxContHomeNav",
         "flxContIndicatorMenuDown",
         "FlxContent",
-        "lblTestGesture",
-        "flxMenuTap",
-        "FlxContent1",
-        "flxContPad",
-        "flxBox",
-        "flxFooterHome"
+        "flxFooterHome",
+        "Flxmenu"
     ],
     "clipbounds": true,
     "containerweight": 100,

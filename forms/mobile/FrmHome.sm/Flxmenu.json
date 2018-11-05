@@ -36,7 +36,6 @@
         "value": "100%"
     },
     "areflexpropsreferenced": false,
-    "autogrowmode": 0,
     "canUpdateUI": true,
     "clipbounds": true,
     "containerweight": 0,
@@ -228,7 +227,7 @@
     "layouttype": 2,
     "masterType": 0,
     "name": "kony.ui.UserWidgetInstance",
-    "parent": "flxMenuTap",
+    "parent": "FlxContainer",
     "pf": "FrmHome",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
