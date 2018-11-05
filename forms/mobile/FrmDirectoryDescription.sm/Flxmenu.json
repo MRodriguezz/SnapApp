@@ -81,14 +81,6 @@
                 "wType": "Image"
             }
         },
-        "FlxClickTerms": {
-            "__events__": {},
-            "__info__": {
-                "kuid": "jc94422d05434941a703304f85004ec7",
-                "srcKUID": "b59201d277a240eca084cfd63c0fa0fa",
-                "wType": "FlexContainer"
-            }
-        },
         "Flxmenu": {
             "__events__": {},
             "__info__": {
@@ -105,22 +97,6 @@
                 "kuid": "ec2a4c2f9fc840188890be23986e5dc7",
                 "srcKUID": "jff7766017054a9b85c2235905e47532",
                 "wType": "Image"
-            }
-        },
-        "LblHomeDescription": {
-            "__events__": {},
-            "__info__": {
-                "kuid": "bc96dfbb9ea34b6091cb2395af5c0c79",
-                "srcKUID": "aa8cccdea11a454581abe367c958fe76",
-                "wType": "Label"
-            }
-        },
-        "flxContHomeNav": {
-            "__events__": {},
-            "__info__": {
-                "kuid": "a37fff6d68dd45a4b97f6b7033f4335d",
-                "srcKUID": "d719186a4fa24e55b1a6a0dc26baafdc",
-                "wType": "FlexContainer"
             }
         },
         "flxContHomeNavFooter": {
@@ -147,27 +123,11 @@
                 "wType": "FlexContainer"
             }
         },
-        "flxContPrivacyAndTerms": {
-            "__events__": {},
-            "__info__": {
-                "kuid": "e0a526cbff604311bade8d1d288579fb",
-                "srcKUID": "bd02ce5cba52403faa255e1a00d91a94",
-                "wType": "FlexContainer"
-            }
-        },
         "flxContPrivacyAndTermsFooter": {
             "__events__": {},
             "__info__": {
                 "kuid": "a53573fcbd1144a7939f201e0c10e303",
                 "srcKUID": "a2c2e8bf5c814b7bbfdebfa6a33bf355",
-                "wType": "FlexContainer"
-            }
-        },
-        "flxHeaderHome": {
-            "__events__": {},
-            "__info__": {
-                "kuid": "d78e2af629ac4a3c8fee18762d6f759e",
-                "srcKUID": "gf188b91215b4f37bfc814a6b4c18695",
                 "wType": "FlexContainer"
             }
         },
@@ -185,30 +145,6 @@
                 "kuid": "d811a358f95c49589fd00d8ca1b4beef",
                 "srcKUID": "e268ca80de5d45a09238207d003f9d48",
                 "wType": "FlexScrollContainer"
-            }
-        },
-        "lblPrivacyAndTermsText": {
-            "__events__": {},
-            "__info__": {
-                "kuid": "f4b6e4bc8ac04dcd9f5b48cf63291be4",
-                "srcKUID": "jfa59e1c99be425c8beaed505cdbf6e5",
-                "wType": "Label"
-            }
-        },
-        "lblVersionTermsText": {
-            "__events__": {},
-            "__info__": {
-                "kuid": "b376e131360d4f05a3e8402b5c0a0d97",
-                "srcKUID": "jb95db44ccfe4d1ea0a0115ab07d05e2",
-                "wType": "Label"
-            }
-        },
-        "searchDescription": {
-            "__events__": {},
-            "__info__": {
-                "kuid": "bc1b0cc2488a43b2adabd1d615af7e72",
-                "srcKUID": "e9f03de7ab904e24835bb40f670b03fc",
-                "wType": "Image"
             }
         },
         "segDataHomeMenu": {

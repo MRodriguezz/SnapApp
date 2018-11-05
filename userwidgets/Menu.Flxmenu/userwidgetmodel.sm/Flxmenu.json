@@ -37,7 +37,6 @@
     "canUpdateUI": true,
     "children": [
         "flxContMenu",
-        "flxContHomeNav",
         "flxContIndicatorMenuUp"
     ],
     "clipbounds": true,
