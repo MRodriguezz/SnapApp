@@ -26,6 +26,7 @@ define({
   },
   setBindings: function(){
     this.view.SgmHome.onRowClick = this.onOptionClick.bind(this);
+    this.view.Flxmenu.segDataHomeMenu.onRowClick = this.view.Flxmenu.clickRow;
     this.setSwipeActions();
   },
   onInit: function(){
@@ -44,10 +45,14 @@ define({
     this.NavigateHomeDescription();
   },
   setSwipeActions:function(){
-//     this.view.flxMenuTap.onTouchStart = this.flxMenuTapTouchStart.bind(this);
-//     this.view.flxMenuTap.onTouchMove = this.flxMenuTapTouchMove.bind(this);
-//     this.view.flxMenuTap.onTouchEnd = this.flxMenuTapTouchEnd.bind(this);
-       this.view.flxContHomeNav.addGestureRecognizer(2,{fingers: 1},this.onHomeSwipe.bind(this));
+    this.view.flxContHomeNav.onTouchStart = this.flxMenuTapTouchStart.bind(this);
+    this.view.flxContHomeNav.onTouchMove = this.flxMenuTapTouchMove.bind(this);
+    this.view.flxContHomeNav.onTouchEnd = this.flxMenuTapTouchEnd.bind(this);
+    this.view.Flxmenu.flxContHomeNavFooter.onClick= this.moveMenuUp;
+//        this.view.flxContHomeNav.addGestureRecognizer(2,{fingers: 1},this.onHomeSwipe.bind(this));
+  },
+  moveMenuUp:function(){
+  	this.moveElementsModifyingTop("Flxmenu", "-100%");
   },
   onHomeSwipe: function(widgetRef,gestureInfo,context){
     alert(gestureInfo.swipeDirection);
@@ -136,7 +141,6 @@ define({
   moveInit:function(eventObj, x, y) {
     var cY = this.percentScreen("y", y);
     var valueYTotal = String(cY + "%");
-    this.view.lblTestGesture.text = valueYTotal;
     //alert(this.view.lblTestGesture.text = valueYTotal);
   },
   //----------------------------------------------------------------------------

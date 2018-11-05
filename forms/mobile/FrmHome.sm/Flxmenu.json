@@ -29,7 +29,7 @@
     "_skin_": "se2450f22aa04a839f8f14ef04ea14ac",
     "_top_": {
         "type": "string",
-        "value": "0%"
+        "value": "-100%"
     },
     "_width_": {
         "type": "string",
@@ -87,6 +87,12 @@
                 "kuid": "a39fa1880d154548b3a50e9156df23b6",
                 "srcKUID": "f3acca4e695f4c6cac9aaa57dd24f626",
                 "wType": "FlexContainer"
+            },
+            "width": {
+                "Default": {
+                    "type": "string",
+                    "value": "100%"
+                }
             }
         },
         "ImgUp": {

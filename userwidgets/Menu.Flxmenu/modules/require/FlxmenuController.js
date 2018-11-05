@@ -19,31 +19,21 @@ define({
        );
 
    },*/
+  onNavigate:function(){
+    alert("hola")
+  },
   
   
   
+
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-   ClickRow:function() {
-     var item = this.view.Segment0a79a394297f846.selectedRowItems;
+   clickRow:function() {
+     var item = this.view.segDataHomeMenu.selectedRowItems;
     // alert(item[0].LblName);
      //alert(typeof item[0].LblName);
-     this.animMoveElementsUps();
+//      this.animMoveElementsUps();
      if(item[0].LblName == "County Agency Directory"){
-       var navToProspect = new kony.mvc.Navigation("FrmDirectory");
+        var navToProspect = new kony.mvc.Navigation("FrmDirectory");
      	navToProspect.navigate();
      }else if(item[0].LblName == "What's near me?"){
            var navToProspect = new kony.mvc.Navigation("WhatNearMe");
