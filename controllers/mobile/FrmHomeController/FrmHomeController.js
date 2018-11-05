@@ -27,7 +27,7 @@ define({
   setBindings: function(){
     this.view.SgmHome.onRowClick = this.onOptionClick.bind(this);
     this.view.Flxmenu.segDataHomeMenu.onRowClick = this.view.Flxmenu.clickRow;
-    this.setSwipeActions();
+    this.valPlatformCondition();
   },
   onInit: function(){
     //this.setGesturestoStocks();
@@ -44,34 +44,46 @@ define({
   onOptionClick:function(){
     this.NavigateHomeDescription();
   },
-  setSwipeActions:function(){
-    this.view.flxContHomeNav.onTouchStart = this.flxMenuTapTouchStart.bind(this);
-    this.view.flxContHomeNav.onTouchMove = this.flxMenuTapTouchMove.bind(this);
-    this.view.flxContHomeNav.onTouchEnd = this.flxMenuTapTouchEnd.bind(this);
-    this.view.Flxmenu.flxContHomeNavFooter.onClick= this.moveMenuUp;
-//        this.view.flxContHomeNav.addGestureRecognizer(2,{fingers: 1},this.onHomeSwipe.bind(this));
+  
+  valPlatformCondition:function() {
+    var deviceOS = kony.os.deviceInfo().name;
+    
+    if(deviceOS == "android") {
+      this.view.flxContHomeNav.onTouchEnd = this.flxMenuTapTouchEnd.bind(this);
+      // Function that is responsible for uploading the menu to its current position
+      this.view.Flxmenu.flxContHomeNavFooter.onTouchEnd = this.flxMenuTapTouchEnd.bind(this);
+      
+    } else if(deviceOS == "iPhone") {
+      this.view.flxContHomeNav.addGestureRecognizer(2,{fingers: 1},this.onMenuSwipeDown.bind(this));
+      this.view.Flxmenu.flxContHomeNavFooter.addGestureRecognizer(2,{fingers: 1},this.moveMenuSwipeUp.bind(this));
+    }
   },
-  moveMenuUp:function(){
-  	this.moveElementsModifyingTop("Flxmenu", "-100%");
+  
+  
+  // Swipe function to return the menu to its original position
+  // Iphone function
+  moveMenuSwipeUp:function(widgetRef,gestureInfo,context) {
+    //alert(gestureInfo.swipeDirection);
+    if(gestureInfo.swipeDirection == 3){
+      this.moveElementsModifyingTop("Flxmenu", "-100%");
+    }
   },
-  onHomeSwipe: function(widgetRef,gestureInfo,context){
-    alert(gestureInfo.swipeDirection);
-    if(gestureInfo.swipeDirection==4){
+  // Swipe function that is responsible for moving the menu down
+  // Iphone function
+  onMenuSwipeDown:function(widgetRef,gestureInfo,context) {
+    //alert(gestureInfo.swipeDirection);
+    if(gestureInfo.swipeDirection == 4){
       this.moveElementsModifyingTop("Flxmenu", "0%");
     }
   },
-  flxMenuTapTouchStart: function(eventObj,x,y){
-    this.moveInit.call(this, eventObj, x, y);
-  },
-  flxMenuTapTouchMove: function(eventObj,x,y){
-    this.moveMoving.call(this, eventObj, x, y);
-  },
+  
+  // functions that is responsible for moving the menu on the android platform
+  // Android function
   flxMenuTapTouchEnd: function(eventObj,x,y){
     this.moveEnd.call(this, eventObj, x, y);
   },
   
   NavigateHomeDescription:function (){
-
     var item = this.view.SgmHome.selectedRowItems;
     // alert(item[0]);
     //alert(typeof item[0].LblName);
@@ -82,7 +94,6 @@ define({
     var ntf = new kony.mvc.Navigation("FrmHomeDescription");
     ntf.navigate();
   },
-
   HideSearch: function() {
     try{
 //       var form = kony.application.getCurrentForm();
@@ -96,9 +107,6 @@ define({
       kony.print("FrmHomeController HideSearch catch : "+e);
     }
   },
-  
-  
-  
   //-----------------------------------------------------------------------------  
   //-----------------------------------------------------------------------------  
   /* This returns the value of the point in the screen that is localized the selection
@@ -119,59 +127,32 @@ define({
     return total;
   },
   //----------------------------------------------------------------------------
-  //Created by:CruzAmbrocio
-  //Date_10-03-18
   //----------------------------------------------------------------------------
   screenWidth: function(){
     var deviceInfo =  kony.os.deviceInfo();
     return deviceInfo["screenWidth"];
   },
   //----------------------------------------------------------------------------
-  //Created by:CruzAmbrocio
-  //Date_10-03-18
   //----------------------------------------------------------------------------
   screenHeight: function(){
     var deviceInfo =  kony.os.deviceInfo();
     return deviceInfo["screenHeight"];
   },
   //----------------------------------------------------------------------------
-  //Created by:CruzAmbrocio
-  //Date_10-03-18
-  //----------------------------------------------------------------------------
-  moveInit:function(eventObj, x, y) {
-    var cY = this.percentScreen("y", y);
-    var valueYTotal = String(cY + "%");
-    //alert(this.view.lblTestGesture.text = valueYTotal);
-  },
-  //----------------------------------------------------------------------------
-  //Created by:CruzAmbrocio
-  //Date_10-03-18
-  //----------------------------------------------------------------------------
-  moveMoving:function(eventObj, x, y) {
-    var cY = this.percentScreen("y", y);
-    var valueYTotal = String(cY + "%");
-  },
-  //----------------------------------------------------------------------------
-  //Created by:CruzAmbrocio
-  //Date_10-03-18
   //----------------------------------------------------------------------------
   moveEnd:function(eventObj, x, y) {
     var pForm = kony.application.getCurrentForm();
     var cY = this.percentScreen("y", y);
     
+    // Validation that is responsible for measuring the percentage so that the swipe of the menu is activated
     if(cY <= 8.5) {
       this.moveElementsModifyingTop("Flxmenu", "0%");
      
-    /*} else if(cY >= 15.5) {
-      this.moveElementsModifyingTop("Flxmenu", "50%");*/
-      
     } else if(cY >= 8.5 && cY <= 95.5) {
       this.moveElementsModifyingTop("Flxmenu", "-100%");
     }
   },
   //----------------------------------------------------------------------------
-  //Created by:CruzAmbrocio
-  //Date_10-03-18
   //----------------------------------------------------------------------------
   moveElementsModifyingTop:function(widget, distance) {
     try {
