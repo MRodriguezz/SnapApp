@@ -19,6 +19,50 @@ define({
     catch(e){
       kony.print("FrmHomeController onNavigate catch : "+e);
     } 
+    this.view.init = this.onInit.bind(this);
+    this.view.preShow = this.onPreShow.bind(this);
+    this.view.postShow= this.onPostShow.bind(this);
+    this.setBindings();
+  },
+  setBindings: function(){
+    this.view.SgmHome.onRowClick = this.onOptionClick.bind(this);
+    this.setSwipeActions();
+  },
+  onInit: function(){
+    //this.setGesturestoStocks();
+	//setGesture();
+  },
+  onPreShow: function(){
+    this.HideSearch();
+    /*this.screenWidth();
+    this.screenHeight();*/
+  },
+  onPostShow:function(){
+//     initializeGlobalMenu();
+  },
+  onOptionClick:function(){
+    this.NavigateHomeDescription();
+  },
+  setSwipeActions:function(){
+//     this.view.flxMenuTap.onTouchStart = this.flxMenuTapTouchStart.bind(this);
+//     this.view.flxMenuTap.onTouchMove = this.flxMenuTapTouchMove.bind(this);
+//     this.view.flxMenuTap.onTouchEnd = this.flxMenuTapTouchEnd.bind(this);
+       this.view.flxContHomeNav.addGestureRecognizer(2,{fingers: 1},this.onHomeSwipe.bind(this));
+  },
+  onHomeSwipe: function(widgetRef,gestureInfo,context){
+    alert(gestureInfo.swipeDirection);
+    if(gestureInfo.swipeDirection==4){
+      this.moveElementsModifyingTop("Flxmenu", "0%");
+    }
+  },
+  flxMenuTapTouchStart: function(eventObj,x,y){
+    this.moveInit.call(this, eventObj, x, y);
+  },
+  flxMenuTapTouchMove: function(eventObj,x,y){
+    this.moveMoving.call(this, eventObj, x, y);
+  },
+  flxMenuTapTouchEnd: function(eventObj,x,y){
+    this.moveEnd.call(this, eventObj, x, y);
   },
   
   NavigateHomeDescription:function (){
@@ -126,7 +170,6 @@ define({
   //Date_10-03-18
   //----------------------------------------------------------------------------
   moveElementsModifyingTop:function(widget, distance) {
-    var pForm = kony.application.getCurrentForm();
     try {
       this.view.Flxmenu.animate(
         kony.ui.createAnimation({
